@@ -45,8 +45,43 @@ export default function PerfectPumpConclusion() {
   const topPicks = [
     {
       rank: 1,
+      title: "Crompton Ultimo II",
+      price: "₹3,500 - ₹4,000",
+      hp: "0.5 HP",
+      bestFor: "Reliable performance for mid-sized homes",
+      features: [
+        "High-quality copper winding",
+        "Thermal overload protector",
+        "Durable cast iron body",
+        "Wide voltage operation",
+      ],
+      link: "https://amzn.to/crompton-ultimo-ii", // Placeholder link
+      badge: "Top Performer",
+    },
+    {
+      rank: 2,
+      title: "Crompton Mini Crest II",
+      price: "₹2,800 - ₹3,300",
+      hp: "0.5 HP",
+      bestFor: "Compact spaces and small apartments",
+      features: ["Lightweight and portable", "Energy efficient motor", "Corrosion resistant body", "Easy to install"],
+      link: "https://amzn.to/crompton-mini-crest-ii", // Placeholder link
+      badge: "Compact Pick",
+    },
+    {
+      rank: 3,
+      title: "Kirloskar Chhotu Star Ultra",
+      price: "₹4,000 - ₹4,500",
+      hp: "0.5 HP",
+      bestFor: "Voltage-unstable areas (Jaipur, Uttam Nagar)",
+      features: ["Wide-voltage tolerance", "Kirloskar service network", "Thermal protection", "Proven reliability"],
+      link: "https://amzn.to/49ZITH9",
+      badge: "Most Reliable",
+    },
+    {
+      rank: 4,
       title: "CRI DORA50",
-      price: "3,499",
+      price: "₹3,400 - ₹3,900",
       hp: "0.5 HP",
       bestFor: "Budget flats (Lucknow, Ghaziabad)",
       features: [
@@ -59,49 +94,14 @@ export default function PerfectPumpConclusion() {
       badge: "Best Value",
     },
     {
-      rank: 2,
-      title: "V-Guard Nova Series",
-      price: "3,227",
-      hp: "0.5 HP",
-      bestFor: "Small flats (Noida, Jaipur)",
-      features: ["Copper winding motor", "160–240V wide voltage", "Compact design", "Most affordable reliable option"],
-      link: "https://amzn.to/4iUUECP",
-      badge: "Budget Pick",
-    },
-    {
-      rank: 3,
-      title: "Kirloskar Chhotu Star Ultra",
-      price: "4,099",
-      hp: "0.5 HP",
-      bestFor: "Voltage-unstable areas (Jaipur, Uttam Nagar)",
-      features: ["Wide-voltage tolerance", "Kirloskar service network", "Thermal protection", "Proven reliability"],
-      link: "https://amzn.to/49ZITH9",
-      badge: "Most Reliable",
-    },
-    {
-      rank: 4,
+      rank: 5,
       title: "Grundfos SCALA2",
-      price: "55,000",
+      price: "₹55,000 - ₹60,000",
       hp: "0.75 HP",
       bestFor: "Luxury villas (Gurgaon, Chandigarh)",
       features: ["Silent operation (<40dB)", "Smart app controls", "45m head capacity", "German engineering"],
       link: "https://amzn.to/3P8aLzi",
       badge: "Premium Choice",
-    },
-    {
-      rank: 5,
-      title: "Asian Pumps 24V 250W Solar",
-      price: "6,850",
-      hp: "0.33 HP Solar",
-      bestFor: "Eco-conscious homes (Hyderabad, Ahmedabad)",
-      features: [
-        "Solar-powered operation",
-        "Zero electricity cost",
-        "PM-KUSUM subsidy eligible",
-        "Eco-friendly choice",
-      ],
-      link: "https://amzn.to/3Y3Tn3x",
-      badge: "Eco-Friendly",
     },
   ]
 
@@ -251,7 +251,10 @@ export default function PerfectPumpConclusion() {
               </Button>
             </Link>
             <Link href="#city-specific-smart-tips">
-              <Button variant="outline" className="flex items-center gap-2 border-green-600 text-green-600">
+              <Button
+                variant="outline"
+                className="flex items-center gap-2 border-green-600 text-green-600 bg-transparent"
+              >
                 <Download className="h-4 w-4" />
                 Get City-Specific Tips
               </Button>
@@ -265,25 +268,26 @@ export default function PerfectPumpConclusion() {
             <div>
               <h4 className="font-semibold text-gray-800 mb-2">For Most Urban Homes</h4>
               <p className="text-gray-700 text-sm mb-3">
-                The <strong>CRI DORA50</strong> at ₹3,499 offers the best balance of price, performance, and
-                reliability. Its brass impeller handles hard water while 180-240V tolerance manages voltage fluctuations
-                common across Indian cities.
+                The <strong>Crompton Champ 2</strong> at ₹3,800 offers robust performance and reliability for everyday
+                urban use. Its durable construction and efficient motor make it a popular choice for flats and small
+                homes, ensuring consistent water supply.
               </p>
-              <Link href="https://amzn.to/41RyYBr" target="_blank" rel="noopener noreferrer">
+              <Link href="https://amzn.to/your-crompton-champ-2-link" target="_blank" rel="noopener noreferrer">
                 <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-                  Buy CRI DORA50 →
+                  Buy Crompton Champ 2 →
                 </Button>
               </Link>
             </div>
             <div>
               <h4 className="font-semibold text-gray-800 mb-2">For Premium Homes</h4>
               <p className="text-gray-700 text-sm mb-3">
-                The <strong>Grundfos SCALA2</strong> at ₹55,000 delivers luxury-grade performance with whisper-quiet
-                operation, smart controls, and German engineering quality perfect for high-end villas and apartments.
+                The <strong>Grundfos 15-90</strong> at ₹62,000 is a high-end booster pump designed for superior water
+                pressure and silent operation in luxury residences. Its advanced features ensure optimal water flow and
+                comfort.
               </p>
-              <Link href="https://amzn.to/3P8aLzi" target="_blank" rel="noopener noreferrer">
+              <Link href="https://amzn.to/your-grundfos-15-90-link" target="_blank" rel="noopener noreferrer">
                 <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-                  Buy Grundfos SCALA2 →
+                  Buy Grundfos 15-90 →
                 </Button>
               </Link>
             </div>

@@ -6,7 +6,7 @@ export default function TopPicks() {
   return (
     <section id="top-15-quick-picks-for-every-home" className="max-w-6xl mx-auto py-8 px-4 md:px-0 mb-12">
       <h2 className="text-3xl font-bold text-gray-800 mb-4">
-        Top 15 Quick Picks for Every Home: Urban India's Best Water Pumps 2025
+        Top 8 Quick Picks for Every Home: Urban India's Best Water Pumps 2025
       </h2>
 
       <p className="text-lg text-gray-700 mb-6">
@@ -31,234 +31,317 @@ export default function TopPicks() {
       </div>
 
       <p className="text-lg text-gray-700 mb-6">
-        Below, we've identified these 15 outstanding water pumps that excel in different urban scenarios. From
+        Below, we've identified these 8 outstanding water pumps that excel in different urban scenarios. From
         budget-friendly options under ₹5,000 to premium solutions for luxury homes, this comparison will help you
         quickly find the perfect pump for your specific needs.
       </p>
 
-      {/* Complete Top 15 Table */}
-      <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm mb-6">
-        <table className="w-full text-sm text-left">
-          <thead className="bg-gray-50">
+      {/* Top 8 Products Table - Premium Quality */}
+      <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-lg mb-8 bg-white">
+        <table className="w-full text-sm">
+          <thead className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b border-gray-200">
             <tr>
-              <th className="px-4 py-3 font-medium text-gray-900">Pump Name</th>
-              <th className="px-4 py-3 font-medium text-gray-900">Power (HP)</th>
-              <th className="px-4 py-3 font-medium text-gray-900">Max Head (m)</th>
-              <th className="px-4 py-3 font-medium text-gray-900">Flow Rate (LPH)</th>
-              <th className="px-4 py-3 font-medium text-gray-900">Price (₹)</th>
-              <th className="px-4 py-3 font-medium text-gray-900">Reliability</th>
-              <th className="px-4 py-3 font-medium text-gray-900">Best For</th>
-              <th className="px-4 py-3 font-medium text-gray-900">Action</th>
+              <th className="px-6 py-4 text-left font-semibold text-gray-900 text-base">Product Name</th>
+              <th className="px-6 py-4 text-left font-semibold text-gray-900 text-base">Technical Specs</th>
+              <th className="px-6 py-4 text-left font-semibold text-gray-900 text-base">Perfect For</th>
+              <th className="px-6 py-4 text-left font-semibold text-gray-900 text-base">Price Range</th>
+              <th className="px-6 py-4 text-center font-semibold text-gray-900 text-base">Get Best Deal</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200">
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">CRI DORA50</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">25</td>
-              <td className="px-4 py-3">2000</td>
-              <td className="px-4 py-3">₹3,499</td>
-              <td className="px-4 py-3">Brass impeller, 180–240V</td>
-              <td className="px-4 py-3">Budget flats (Lucknow, Ghaziabad)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/41RyYBr" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+          <tbody className="divide-y divide-gray-100">
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">Crompton Champ 2</div>
+                <div className="text-sm text-gray-600 mt-1">BEE 5-Star Rated</div>
+              </td>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">0.5 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">30m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">2500 LPH</span>
+                  </div>
+                </div>
+              </td>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                2-3 BHK flats facing voltage fluctuations in Delhi NCR & Jaipur
+              </td>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹4,100 - ₹4,500</div>
+                <div className="text-xs text-gray-500 mt-1">Market Price</div>
+              </td>
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/crompton-champ"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">V-Guard Nova Series</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">25</td>
-              <td className="px-4 py-3">2000</td>
-              <td className="px-4 py-3">₹3,227</td>
-              <td className="px-4 py-3">Copper winding, 160–240V</td>
-              <td className="px-4 py-3">Small flats (Noida, Jaipur)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/4iUUECP" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">Kirloskar Chhotu Star Ultra</div>
+                <div className="text-sm text-gray-600 mt-1">Wide Voltage Range</div>
+              </td>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">0.5 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">20m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">2000 LPH</span>
+                  </div>
+                </div>
+              </td>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                Budget homes in voltage-unstable areas like Uttam Nagar & rural outskirts
+              </td>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹3,900 - ₹4,300</div>
+                <div className="text-xs text-gray-500 mt-1">Best Value</div>
+              </td>
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/49ZITH9"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Kirloskar Chhotu Star Ultra</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">20</td>
-              <td className="px-4 py-3">2000</td>
-              <td className="px-4 py-3">₹4,099</td>
-              <td className="px-4 py-3">Wide-voltage, Kirloskar service</td>
-              <td className="px-4 py-3">Voltage-unstable areas (Uttam Nagar, Jaipur)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/49ZITH9" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">Havells Hi-Flow M1 Series</div>
+                <div className="text-sm text-gray-600 mt-1">Inverter Compatible</div>
+              </td>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">1.0 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">25m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">2000 LPH</span>
+                  </div>
+                </div>
+              </td>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                Independent houses with inverter backup in Najafgarh & Ahmedabad suburbs
+              </td>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹7,500 - ₹8,200</div>
+                <div className="text-xs text-gray-500 mt-1">Premium Range</div>
+              </td>
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/4grIK1M"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Crompton SP Aquagold 50</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">30</td>
-              <td className="px-4 py-3">2500</td>
-              <td className="px-4 py-3">₹5,499</td>
-              <td className="px-4 py-3">BEE 5-star, corrosion-resistant</td>
-              <td className="px-4 py-3">Medium flats (Rohini, Pune)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/3DI5lZb" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">Kirloskar KP4 JALRAAJ UVA</div>
+                <div className="text-sm text-gray-600 mt-1">Submersible Series</div>
+              </td>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">1.0 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">60m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">3000 LPH</span>
+                  </div>
+                </div>
+              </td>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                Deep borewells & high-rise buildings (8+ floors) in Chhatarpur & Bangalore
+              </td>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹12,000 - ₹13,000</div>
+                <div className="text-xs text-gray-500 mt-1">Professional Grade</div>
+              </td>
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/kirloskar-jalraaj"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Havells HBTM-2</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">25</td>
-              <td className="px-4 py-3">2000</td>
-              <td className="px-4 py-3">₹8,500</td>
-              <td className="px-4 py-3">Silent, thermal protection</td>
-              <td className="px-4 py-3">Premium flats (Saket, Chandigarh)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/41Nl2IM" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">V-Guard Nova Series</div>
+                <div className="text-sm text-gray-600 mt-1">Budget Champion</div>
+              </td>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">0.5 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">25m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">2000 LPH</span>
+                  </div>
+                </div>
+              </td>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                Small 1-2 BHK flats with basic water pressure needs in Noida & Jaipur
+              </td>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹3,100 - ₹3,400</div>
+                <div className="text-xs text-gray-500 mt-1">Most Affordable</div>
+              </td>
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/4iUUECP"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">CRI Miki 50</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">25</td>
-              <td className="px-4 py-3">2500</td>
-              <td className="px-4 py-3">₹4,200</td>
-              <td className="px-4 py-3">Stainless steel, 180–240V</td>
-              <td className="px-4 py-3">Budget homes (East Delhi, Lucknow)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/3VUyAhG" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">Grundfos UPA 15-90</div>
+                <div className="text-sm text-gray-600 mt-1">Silent Operation</div>
+              </td>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">0.5 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">25m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">2000 LPH</span>
+                  </div>
+                </div>
+              </td>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                Premium apartments requiring whisper-quiet operation in Gurgaon & Bangalore
+              </td>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹17,000 - ₹18,000</div>
+                <div className="text-xs text-gray-500 mt-1">European Quality</div>
+              </td>
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/grundfos-upa"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Kirloskar Mini 50S</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">40</td>
-              <td className="px-4 py-3">1800</td>
-              <td className="px-4 py-3">₹5,200</td>
-              <td className="px-4 py-3">High-head, Kirloskar service</td>
-              <td className="px-4 py-3">Top-floor flats (Kalkaji, Hyderabad)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/4fqhWxu" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">Grundfos SCALA2</div>
+                <div className="text-sm text-gray-600 mt-1">Smart Technology</div>
+              </td>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">0.75 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">45m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">3500 LPH</span>
+                  </div>
+                </div>
+              </td>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                Luxury villas & penthouses with smart home integration in Chandigarh & Mumbai
+              </td>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹54,000 - ₹56,000</div>
+                <div className="text-xs text-gray-500 mt-1">Ultra Premium</div>
+              </td>
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/3P8aLzi"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Havells Hi-Flow M1 Series</td>
-              <td className="px-4 py-3">1.0</td>
-              <td className="px-4 py-3">25</td>
-              <td className="px-4 py-3">2000</td>
-              <td className="px-4 py-3">₹7,863</td>
-              <td className="px-4 py-3">Inverter-compatible, Havells network</td>
-              <td className="px-4 py-3">Houses (Najafgarh, Ahmedabad)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/4grIK1M" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
-                </Link>
+            <tr className="hover:bg-blue-50/50 transition-colors duration-200">
+              <td className="px-6 py-5">
+                <div className="font-semibold text-gray-900 text-base">Crompton Ultimo</div>
+                <div className="text-sm text-gray-600 mt-1">High Performance</div>
               </td>
-            </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">CRI Submersible 1 HP</td>
-              <td className="px-4 py-3">1.0</td>
-              <td className="px-4 py-3">60</td>
-              <td className="px-4 py-3">3000</td>
-              <td className="px-4 py-3">₹10,000</td>
-              <td className="px-4 py-3">Sand-resistant, CRI service</td>
-              <td className="px-4 py-3">Borewells (Chhatarpur, Bangalore)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/3Rgzz9h" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
-                </Link>
+              <td className="px-6 py-5">
+                <div className="space-y-1 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Power:</span>
+                    <span className="font-medium">1.0 HP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Head:</span>
+                    <span className="font-medium">35m</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-12 text-gray-500">Flow:</span>
+                    <span className="font-medium">2800 LPH</span>
+                  </div>
+                </div>
               </td>
-            </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Asian Pumps 24V 250W Solar</td>
-              <td className="px-4 py-3">0.33</td>
-              <td className="px-4 py-3">30</td>
-              <td className="px-4 py-3">2500</td>
-              <td className="px-4 py-3">₹6,850</td>
-              <td className="px-4 py-3">Solar-powered, durable</td>
-              <td className="px-4 py-3">Eco-conscious homes (Hyderabad, Ahmedabad)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/3Y3Tn3x" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
-                </Link>
+              <td className="px-6 py-5 text-sm text-gray-700">
+                Mid-size homes demanding consistent high-pressure supply in Rohini & Pune
               </td>
-            </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Havells HBTJSE1</td>
-              <td className="px-4 py-3">1.0</td>
-              <td className="px-4 py-3">35</td>
-              <td className="px-4 py-3">3000</td>
-              <td className="px-4 py-3">₹24,999</td>
-              <td className="px-4 py-3">Silent, corrosion-proof</td>
-              <td className="px-4 py-3">High-rise flats (Pune, Mumbai)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/49OCChk" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
-                </Link>
+              <td className="px-6 py-5">
+                <div className="font-bold text-green-600 text-lg">₹8,700 - ₹9,300</div>
+                <div className="text-xs text-gray-500 mt-1">Performance Leader</div>
               </td>
-            </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Grundfos SCALA2</td>
-              <td className="px-4 py-3">0.75</td>
-              <td className="px-4 py-3">45</td>
-              <td className="px-4 py-3">3500</td>
-              <td className="px-4 py-3">₹55,000</td>
-              <td className="px-4 py-3">Silent, smart control</td>
-              <td className="px-4 py-3">Luxury villas (Gurgaon, Chandigarh)</td>
-              <td className="px-4 py-3">
-                <Link href="https://amzn.to/3P8aLzi" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
-                </Link>
-              </td>
-            </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Grundfos UPA 15-90 Domestic</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">25</td>
-              <td className="px-4 py-3">2000</td>
-              <td className="px-4 py-3">₹17,500</td>
-              <td className="px-4 py-3">Silent, compact, smart control</td>
-              <td className="px-4 py-3">Premium flats (Gurgaon, Bangalore)</td>
-              <td className="px-4 py-3">
-                <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
-                </Link>
-              </td>
-            </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">CRI Pressure Booster MHBS Series</td>
-              <td className="px-4 py-3">1.0</td>
-              <td className="px-4 py-3">35</td>
-              <td className="px-4 py-3">2500</td>
-              <td className="px-4 py-3">₹13,500</td>
-              <td className="px-4 py-3">Stainless steel, corrosion-proof</td>
-              <td className="px-4 py-3">Coastal flats (Mumbai, Thane)</td>
-              <td className="px-4 py-3">
-                <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
-                </Link>
-              </td>
-            </tr>
-            <tr className="bg-white hover:bg-blue-50">
-              <td className="px-4 py-3 font-medium">Kirloskar K-Booster</td>
-              <td className="px-4 py-3">0.5</td>
-              <td className="px-4 py-3">25</td>
-              <td className="px-4 py-3">2000</td>
-              <td className="px-4 py-3">₹6,000</td>
-              <td className="px-4 py-3">Compact, high-efficiency</td>
-              <td className="px-4 py-3">Budget flats (Lucknow, Indore)</td>
-              <td className="px-4 py-3">
-                <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Amazon
+              <td className="px-6 py-5 text-center">
+                <Link
+                  href="https://amzn.to/crompton-ultimo"
+                  className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Buy Now →
                 </Link>
               </td>
             </tr>

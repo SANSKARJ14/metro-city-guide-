@@ -54,6 +54,7 @@ const TradeOffsTable = ({ products }) => (
           <TableHead>Pump</TableHead>
           <TableHead>Pros</TableHead>
           <TableHead>Cons</TableHead>
+          <TableHead>Action</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -62,6 +63,16 @@ const TradeOffsTable = ({ products }) => (
             <TableCell>{product.name}</TableCell>
             <TableCell>{product.pros}</TableCell>
             <TableCell>{product.cons}</TableCell>
+            <TableCell>
+              <a
+                href={product.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700 transition-colors text-sm font-medium"
+              >
+                Buy Now
+              </a>
+            </TableCell>
           </TableRow>
         ))}
       </TableBody>
@@ -219,60 +230,93 @@ export default function MonoblockPumps() {
             <Table>
               <TableHeader>
                 <TableRow>
-                  <TableHead>Pump Name</TableHead>
-                  <TableHead>Power (HP)</TableHead>
-                  <TableHead>Max Head (m)</TableHead>
-                  <TableHead>Flow Rate (LPH)</TableHead>
-                  <TableHead>Price (₹)</TableHead>
-                  <TableHead>Reliability</TableHead>
+                  <TableHead>Name</TableHead>
+                  <TableHead>Specs (Power, Head, Flow)</TableHead>
+                  <TableHead>Price Range</TableHead>
                   <TableHead>Best For</TableHead>
+                  <TableHead>Action</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
                   <TableCell>Crompton CHAMP PLUS II</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹2,850 - 2,950</TableCell>
-                  <TableCell>Compact, Crompton service</TableCell>
+                  <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹2,850 - ₹2,950</TableCell>
                   <TableCell>Small homes (Bangalore, Lucknow)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/4fH3fpL"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Crompton Mini Crest II</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>20</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹3,250 - 3,350</TableCell>
-                  <TableCell>Thermal protection, 180–240V</TableCell>
+                  <TableCell>0.5 HP | 20m | 2000 LPH</TableCell>
+                  <TableCell>₹3,250 - ₹3,350</TableCell>
                   <TableCell>Flats (Pune, Noida)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/3VYqPHP"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Havells Zinnia 2 Plus</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>20</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹3,100 - 3,200</TableCell>
-                  <TableCell>Silent, corrosion-resistant</TableCell>
+                  <TableCell>0.5 HP | 20m | 2000 LPH</TableCell>
+                  <TableCell>₹3,100 - ₹3,200</TableCell>
                   <TableCell>Medium homes (Ahmedabad, Jaipur)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/3Pg1wgy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Kirloskar Jalraaj II</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹4,950 - 5,050</TableCell>
-                  <TableCell>Durable, Kirloskar service</TableCell>
+                  <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹4,950 - ₹5,050</TableCell>
                   <TableCell>Houses (Chandigarh, Ghaziabad)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/3Dz25PW"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Havells Hi-Flow M1 Series</TableCell>
-                  <TableCell>1.0</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹7,800 - 7,950</TableCell>
-                  <TableCell>Inverter-compatible, Havells network</TableCell>
+                  <TableCell>1.0 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹7,800 - ₹7,950</TableCell>
                   <TableCell>Houses (Hyderabad, Mumbai)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/4grIK1M"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -284,26 +328,31 @@ export default function MonoblockPumps() {
                 name: "Crompton CHAMP PLUS II",
                 pros: "Most affordable, compact design, good head capacity, reliable brand",
                 cons: "Basic features, no thermal protection",
+                link: "https://amzn.to/4fH3fpL",
               },
               {
                 name: "Crompton Mini Crest II",
                 pros: "Thermal protection, voltage tolerance, proven reliability",
                 cons: "Lower head than CHAMP PLUS, slightly higher price",
+                link: "https://amzn.to/3VYqPHP",
               },
               {
                 name: "Havells Zinnia 2 Plus",
                 pros: "Silent operation, corrosion-resistant, good value for money",
                 cons: "Lower head capacity, limited to residential use",
+                link: "https://amzn.to/3Pg1wgy",
               },
               {
                 name: "Kirloskar Jalraaj II",
                 pros: "Premium build quality, excellent service network, durable construction",
                 cons: "Highest price in 0.5 HP category",
+                link: "https://amzn.to/3Dz25PW",
               },
               {
                 name: "Havells Hi-Flow M1 Series",
                 pros: "1 HP power, inverter-compatible, suitable for larger homes",
                 cons: "Most expensive, higher power consumption",
+                link: "https://amzn.to/4grIK1M",
               },
             ]}
           />

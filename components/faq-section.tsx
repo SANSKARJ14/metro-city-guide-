@@ -33,30 +33,30 @@ export default function FAQSection() {
         <Accordion type="single" collapsible className="w-full space-y-4">
           <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              Which water pump is best for Mumbai's high-rise apartments with low pressure?
+              How do I choose a pump for a 2nd floor flat with low water pressure?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                For Mumbai's high-rise apartments, a <strong>pressure booster pump</strong> is the optimal solution:
+                If your home is on the 2nd floor and has weak municipal supply, use a 0.5 to 1 HP{" "}
+                <strong>pressure pump</strong>. Key things to check:
               </p>
-              <ul className="list-disc list-inside space-y-2 mb-4">
-                <li>Automatically activates when pressure drops below 0.5 bar</li>
-                <li>Maintains consistent 2-3 bar pressure even on upper floors</li>
-                <li>Handles Mumbai's monsoon humidity with corrosion-resistant materials</li>
-                <li>Silent operation suitable for residential buildings</li>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Minimum 20m head height</li>
+                <li>Flow rate between 1800–2500 LPH</li>
+                <li>Support for auto-on when pressure drops</li>
               </ul>
-              <p className="mb-3">
-                <strong>Top recommendations for Mumbai apartments:</strong>
+              <p className="mb-2">
+                <strong>Top recommendations:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
                 <li>
-                  <strong>Havells HBTJSE1 (₹24,999)</strong> - Best for 3+ BHK flats, silent operation
+                  <strong>Crompton Mini Crest II</strong> – 0.5 HP, compact, great for 2BHKs
                 </li>
                 <li>
-                  <strong>CRI MHBS Series (₹13,500)</strong> - Coastal-ready stainless steel construction
+                  <strong>Havells Hi-Flow M1</strong> – 0.75 HP, booster-friendly
                 </li>
                 <li>
-                  <strong>Grundfos UPA 15-90 (₹17,500)</strong> - Premium choice with smart controls
+                  <strong>Grundfos UPA 15-90</strong> – Premium, silent, ideal for night use
                 </li>
               </ul>
             </AccordionContent>
@@ -64,265 +64,220 @@ export default function FAQSection() {
 
           <AccordionItem value="item-2" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              How do I choose the right water pump for Delhi NCR's voltage fluctuations?
+              Which pump works during frequent power cuts in India?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                Delhi NCR's voltage swings (160-280V) require pumps with wide voltage tolerance and protective features:
+                For areas with frequent power cuts, <strong>solar water pumps</strong> are the best solution. They work
+                independently during daytime and can be paired with battery backup.
               </p>
-              <ul className="list-disc list-inside space-y-2 mb-4">
-                <li>
-                  <strong>Wide voltage range</strong>: Choose pumps rated for 160-240V operation
-                </li>
-                <li>
-                  <strong>Thermal protection</strong>: Prevents motor burnout during voltage spikes
-                </li>
-                <li>
-                  <strong>Copper winding motors</strong>: Better resistance to fluctuations than aluminum
-                </li>
-                <li>
-                  <strong>Auto-restart capability</strong>: Resumes operation when power stabilizes
-                </li>
+              <p className="mb-3">Key benefits for power-cut areas:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Zero dependency on grid electricity</li>
+                <li>Works 6-8 hours daily with good sunlight</li>
+                <li>Battery backup option for cloudy days</li>
+                <li>Long-term cost savings on electricity bills</li>
               </ul>
-              <p className="mb-3">
-                <strong>Best voltage-tolerant pumps for Delhi NCR:</strong>
+              <p className="mb-2">
+                <strong>Best power-cut solutions:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
                 <li>
-                  <strong>Kirloskar Chhotu Star Ultra (₹4,099)</strong> - Wide voltage + Kirloskar reliability
+                  <strong>Asian Pumps Solar 24V</strong> – Most affordable, reliable performance
                 </li>
                 <li>
-                  <strong>V-Guard Nova Series (₹3,227)</strong> - 160-240V tolerance, copper winding
-                </li>
-                <li>
-                  <strong>Crompton Mini Crest II (₹3,350)</strong> - Thermal protection + voltage tolerance
+                  <strong>Shakti Solar Pumps</strong> – Higher capacity with battery backup
                 </li>
               </ul>
-              <p className="mt-3">
-                <strong>Pro tip:</strong> Add a ₹2,000 voltage stabilizer for extra protection in areas like Uttam Nagar
-                and Dwarka.
-              </p>
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-3" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              What's the best submersible pump for Bangalore's deep borewells?
+              Is 0.5 HP enough to run two bathrooms?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                Bangalore's borewells (100-200 feet deep) with sandy water require robust{" "}
-                <strong>submersible pumps</strong> with these features:
+                A <strong>0.5 HP water pump</strong> can handle two bathrooms, but performance depends on your specific
+                setup:
               </p>
-              <ul className="list-disc list-inside space-y-2 mb-4">
-                <li>
-                  <strong>Sand-resistant design</strong>: Handles Bangalore's sandy groundwater
-                </li>
-                <li>
-                  <strong>60m+ head capacity</strong>: Adequate for deep borewells
-                </li>
-                <li>
-                  <strong>3000+ LPH flow</strong>: Quick tank filling for large homes
-                </li>
-                <li>
-                  <strong>Stainless steel construction</strong>: Resists corrosion from groundwater minerals
-                </li>
+              <p className="mb-3">When 0.5 HP works for two bathrooms:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Ground floor or 1st floor homes</li>
+                <li>Good municipal water pressure (above 0.5 bar)</li>
+                <li>Bathrooms not used simultaneously</li>
+                <li>Short pipe runs from pump to outlets</li>
               </ul>
-              <p className="mb-3">
-                <strong>Top submersible pumps for Bangalore borewells:</strong>
+              <p className="mb-3">Upgrade to 1 HP if you have:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>2nd floor or higher</li>
+                <li>Both bathrooms used at same time</li>
+                <li>Low municipal pressure</li>
+              </ul>
+              <p className="mb-2">
+                <strong>Reliable 0.5 HP options:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
                 <li>
-                  <strong>CRI Submersible 1 HP (₹10,000)</strong> - Best value, sand-resistant
+                  <strong>Crompton Champ 2</strong> – Proven for dual bathroom setups
                 </li>
                 <li>
-                  <strong>Crompton 4W12BF1.5E (₹12,824)</strong> - 1.5 HP for very deep wells
-                </li>
-                <li>
-                  <strong>Kirloskar KP4 JALRAAJ (₹12,299)</strong> - Premium build, extensive service network
+                  <strong>V-Guard Nova Series</strong> – Good pressure maintenance
                 </li>
               </ul>
-              <p className="mt-3">
-                <strong>Bangalore-specific tip:</strong> Install a sand filter before the pump to extend lifespan in
-                areas like Whitefield and Electronic City.
-              </p>
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-4" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              How much electricity does a 1 HP water pump consume monthly in Indian cities?
+              What's the difference between pressure booster and self-priming pumps?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                A standard 1 HP <strong>water pump</strong> consumes approximately 750 watts per hour. Here's the
-                monthly cost breakdown for major cities:
+                <strong>Pressure booster pumps</strong> and <strong>self-priming pumps</strong> serve different
+                purposes:
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg mb-4">
-                <h4 className="font-semibold mb-2">Monthly electricity costs (3 hours daily usage):</h4>
-                <ul className="list-disc list-inside space-y-1 text-sm">
-                  <li>
-                    <strong>Mumbai:</strong> ₹506 (₹11.25/unit × 45 units)
-                  </li>
-                  <li>
-                    <strong>Delhi:</strong> ₹427 (₹9.50/unit × 45 units)
-                  </li>
-                  <li>
-                    <strong>Bangalore:</strong> ₹383 (₹8.50/unit × 45 units)
-                  </li>
-                  <li>
-                    <strong>Hyderabad:</strong> ₹337 (₹7.50/unit × 45 units)
-                  </li>
-                  <li>
-                    <strong>Pune:</strong> ₹450 (₹10/unit × 45 units)
-                  </li>
+              <div className="mb-4">
+                <p className="font-semibold mb-2">Pressure Booster Pumps:</p>
+                <ul className="list-disc list-inside space-y-1 mb-3">
+                  <li>Increase existing water pressure</li>
+                  <li>Auto-start when pressure drops</li>
+                  <li>Best for high-rise apartments</li>
+                  <li>Work with continuous water supply</li>
                 </ul>
               </div>
-              <p className="mb-3">
-                <strong>Energy-saving strategies:</strong>
+              <div className="mb-4">
+                <p className="font-semibold mb-2">Self-Priming Pumps:</p>
+                <ul className="list-disc list-inside space-y-1 mb-3">
+                  <li>Lift water from ground level tanks</li>
+                  <li>Can handle air in pipes</li>
+                  <li>Best for overhead tank filling</li>
+                  <li>Work with intermittent water supply</li>
+                </ul>
+              </div>
+              <p className="mb-2">
+                <strong>Choose based on your need:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Choose BEE 5-star rated pumps - save 30% on electricity</li>
-                <li>Use timer switches to run pumps during off-peak hours</li>
-                <li>Install proper-sized pumps - oversized pumps waste energy</li>
-                <li>Consider solar pumps for daytime operation - zero electricity cost</li>
+                <li>
+                  <strong>Grundfos UPA 15-90</strong> – Premium pressure booster
+                </li>
+                <li>
+                  <strong>Kirloskar Chhotu Star Ultra</strong> – Reliable self-priming
+                </li>
               </ul>
-              <p className="mt-3">
-                <strong>Most energy-efficient pumps:</strong> Crompton SP Aquagold 50 (BEE 5-star), Asian Pumps Solar
-                Series (solar-powered).
-              </p>
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-5" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              Which pump works best for Ahmedabad's hard water (high TDS)?
+              Can solar pumps work in apartments or just farms?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                Ahmedabad's high TDS water (600-800 ppm) quickly corrodes regular pumps. You need{" "}
-                <strong>corrosion-resistant materials</strong>:
+                <strong>Solar water pumps</strong> work excellently in apartments, not just farms. Modern solar pumps
+                are designed for urban residential use.
               </p>
-              <ul className="list-disc list-inside space-y-2 mb-4">
-                <li>
-                  <strong>Brass or stainless steel impellers</strong>: Resist mineral scaling
-                </li>
-                <li>
-                  <strong>Corrosion-resistant body</strong>: Prevents premature failure
-                </li>
-                <li>
-                  <strong>Easy maintenance access</strong>: For regular descaling
-                </li>
-                <li>
-                  <strong>Avoid budget pumps</strong>: Won't survive high TDS conditions
-                </li>
+              <p className="mb-3">Perfect for apartments because:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Compact solar panels fit on terraces</li>
+                <li>Silent operation suitable for residential areas</li>
+                <li>No electricity bills for water pumping</li>
+                <li>Works during power cuts</li>
+                <li>Government subsidies available for residential use</li>
               </ul>
-              <p className="mb-3">
-                <strong>Best hard water pumps for Ahmedabad:</strong>
+              <p className="mb-3">Installation requirements:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>4-6 hours of direct sunlight daily</li>
+                <li>Terrace space for 2-4 solar panels</li>
+                <li>Basic electrical connection setup</li>
+              </ul>
+              <p className="mb-2">
+                <strong>Best apartment solar pumps:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
                 <li>
-                  <strong>CRI DORA50 (₹3,499)</strong> - Brass impeller, proven in high TDS areas
+                  <strong>Asian Pumps Solar 24V</strong> – Compact, apartment-friendly
                 </li>
                 <li>
-                  <strong>Asian Pumps Solar Submersible (₹9,000)</strong> - Stainless steel, zero electricity
-                </li>
-                <li>
-                  <strong>Crompton SP Aquagold 50 (₹5,499)</strong> - Corrosion-resistant coating
+                  <strong>Shakti Solar Pumps</strong> – Higher capacity for large families
                 </li>
               </ul>
-              <p className="mt-3">
-                <strong>Maintenance tip:</strong> Clean strainers monthly and descale pumps every 6 months in
-                Ahmedabad's water conditions.
-              </p>
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-6" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              What's the difference between 0.5 HP and 1 HP pumps for Indian homes?
+              Why does my pump keep losing suction after a few days?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
-              <p className="mb-3">The HP rating determines your pump's power and performance capabilities:</p>
-              <div className="grid md:grid-cols-2 gap-4 mb-4">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">0.5 HP Pumps</h4>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Ideal for 1-2 BHK flats</li>
-                    <li>1-2 bathrooms maximum</li>
-                    <li>Up to 2nd floor (with good pressure)</li>
-                    <li>Power consumption: ~375 watts</li>
-                    <li>Flow rate: 1500-2500 LPH</li>
-                    <li>Price range: ₹3,000-8,000</li>
-                  </ul>
-                </div>
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">1 HP Pumps</h4>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Perfect for 2-3 BHK homes</li>
-                    <li>2-3 bathrooms comfortably</li>
-                    <li>Up to 4th floor effectively</li>
-                    <li>Power consumption: ~750 watts</li>
-                    <li>Flow rate: 2500-3500 LPH</li>
-                    <li>Price range: ₹5,000-15,000</li>
-                  </ul>
-                </div>
-              </div>
               <p className="mb-3">
-                <strong>When to choose 1 HP over 0.5 HP:</strong>
+                <strong>Water pump</strong> losing suction is a common problem with specific causes and solutions:
+              </p>
+              <p className="mb-3">Main reasons for suction loss:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Air leaks in suction pipe joints</li>
+                <li>Faulty or stuck foot valve</li>
+                <li>Clogged strainer at water source</li>
+                <li>Worn pump seals allowing air entry</li>
+                <li>Water level dropping below suction point</li>
+              </ul>
+              <p className="mb-3">Quick fixes to try:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Check and tighten all pipe connections</li>
+                <li>Clean the foot valve and strainer</li>
+                <li>Prime the pump manually with water</li>
+                <li>Ensure suction pipe is always submerged</li>
+              </ul>
+              <p className="mb-2">
+                <strong>Pumps with better suction retention:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Multiple bathrooms used simultaneously</li>
-                <li>High-rise flats (above 3rd floor)</li>
-                <li>Large overhead tanks (1500L+)</li>
-                <li>Low municipal water pressure in your area</li>
-                <li>Long pipe runs from pump to outlets</li>
+                <li>
+                  <strong>Kirloskar Chhotu Star Ultra</strong> – Superior sealing design
+                </li>
+                <li>
+                  <strong>Crompton Ultimo</strong> – Reliable suction maintenance
+                </li>
               </ul>
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-7" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              How do I fix low water pressure in my Gurgaon apartment?
+              What's the most silent pump for night operation?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                Low water pressure in Gurgaon apartments (especially high-rises) requires a systematic approach:
+                For night operation, choose <strong>silent water pumps</strong> with noise levels below 45 dB. These
+                won't disturb sleep or neighbors.
               </p>
-              <p className="mb-3">
-                <strong>Step 1: Diagnose the problem</strong>
-              </p>
+              <p className="mb-3">Features of silent pumps:</p>
               <ul className="list-disc list-inside space-y-1 mb-4">
-                <li>Check if pressure is low throughout the building or just your unit</li>
-                <li>Test pressure at different times (early morning vs. peak hours)</li>
-                <li>Measure actual pressure using a gauge (normal = 1-2 bar)</li>
+                <li>Enclosed motor design</li>
+                <li>Vibration dampening mounts</li>
+                <li>Smooth impeller operation</li>
+                <li>Quality bearings and seals</li>
               </ul>
-              <p className="mb-3">
-                <strong>Step 2: Choose the right solution</strong>
-              </p>
+              <p className="mb-3">Installation tips for quieter operation:</p>
               <ul className="list-disc list-inside space-y-1 mb-4">
-                <li>
-                  <strong>Building-wide issue:</strong> Install a pressure booster pump
-                </li>
-                <li>
-                  <strong>Unit-specific issue:</strong> Check for pipe blockages first
-                </li>
-                <li>
-                  <strong>Peak hour problem:</strong> Add a pressure tank system
-                </li>
+                <li>Mount on rubber pads to reduce vibration</li>
+                <li>Install away from bedrooms</li>
+                <li>Use flexible pipe connections</li>
+                <li>Ensure proper pump sizing (oversized pumps are noisier)</li>
               </ul>
-              <p className="mb-3">
-                <strong>Best pressure boosters for Gurgaon apartments:</strong>
+              <p className="mb-2">
+                <strong>Quietest pumps for night use:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
                 <li>
-                  <strong>Grundfos SCALA2 (₹55,000)</strong> - Premium choice, whisper-quiet
+                  <strong>Grundfos UPA 15-90</strong> – Ultra-silent, premium choice
                 </li>
                 <li>
-                  <strong>Havells HBTM-2 (₹8,500)</strong> - Good value, silent operation
+                  <strong>Havells Hi-Flow M1</strong> – Quiet operation, good value
                 </li>
                 <li>
-                  <strong>Crompton Mini Force (₹9,400)</strong> - High head for tall buildings
+                  <strong>Grundfos SCALA2</strong> – Whisper-quiet, smart controls
                 </li>
               </ul>
             </AccordionContent>
@@ -330,48 +285,39 @@ export default function FAQSection() {
 
           <AccordionItem value="item-8" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              Which water pump brand has the best service network in India?
+              How to protect my pump during voltage fluctuations?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                Based on our analysis of service availability across 50+ Indian cities, here's the ranking:
+                <strong>Voltage fluctuations</strong> are the biggest threat to water pumps in India. Protection is
+                essential for pump longevity.
               </p>
-              <div className="space-y-3 mb-4">
-                <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
-                  <span className="font-semibold">1. Crompton</span>
-                  <span className="text-sm text-green-700">Available in 85% of urban areas</span>
-                </div>
-                <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-                  <span className="font-semibold">2. Kirloskar</span>
-                  <span className="text-sm text-blue-700">Strong in North & West India (80% coverage)</span>
-                </div>
-                <div className="flex items-center justify-between p-3 bg-purple-50 rounded-lg">
-                  <span className="font-semibold">3. CRI</span>
-                  <span className="text-sm text-purple-700">Excellent in South India (75% coverage)</span>
-                </div>
-                <div className="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
-                  <span className="font-semibold">4. Havells</span>
-                  <span className="text-sm text-yellow-700">Good metro coverage (70% urban areas)</span>
-                </div>
-              </div>
-              <p className="mb-3">
-                <strong>Regional service strengths:</strong>
+              <p className="mb-3">Essential protection methods:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Install voltage stabilizer (₹2,000-4,000 investment)</li>
+                <li>Choose pumps with wide voltage tolerance (160-240V)</li>
+                <li>Use thermal protection switches</li>
+                <li>Install proper earthing for electrical safety</li>
+              </ul>
+              <p className="mb-3">Pump features for voltage protection:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Copper winding motors (better than aluminum)</li>
+                <li>Built-in thermal overload protection</li>
+                <li>Auto-restart capability after power stabilizes</li>
+                <li>Wide operating voltage range</li>
+              </ul>
+              <p className="mb-2">
+                <strong>Voltage-tolerant pumps:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
                 <li>
-                  <strong>North India:</strong> Kirloskar and Crompton dominate
+                  <strong>V-Guard Nova Series</strong> – 160-240V tolerance, copper winding
                 </li>
                 <li>
-                  <strong>South India:</strong> CRI has the strongest network
+                  <strong>Kirloskar Chhotu Star Ultra</strong> – Wide voltage range, reliable
                 </li>
                 <li>
-                  <strong>West India:</strong> Kirloskar leads, followed by Crompton
-                </li>
-                <li>
-                  <strong>Metro cities:</strong> All major brands have good coverage
-                </li>
-                <li>
-                  <strong>Tier-2 cities:</strong> Crompton and Kirloskar are most reliable
+                  <strong>Crompton Mini Crest II</strong> – Thermal protection included
                 </li>
               </ul>
             </AccordionContent>
@@ -379,54 +325,37 @@ export default function FAQSection() {
 
           <AccordionItem value="item-9" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              Should I buy a solar water pump for my Hyderabad home?
+              Is it safe to buy a ₹3,000 pump from Amazon?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                Solar water pumps make excellent sense for Hyderabad homes, especially with government subsidies:
+                Buying <strong>water pumps</strong> online can be safe if you choose established brands and verified
+                sellers. However, be cautious with unknown brands.
               </p>
-              <p className="mb-3">
-                <strong>Benefits for Hyderabad residents:</strong>
-              </p>
-              <ul className="list-disc list-inside space-y-2 mb-4">
-                <li>
-                  <strong>300+ sunny days annually</strong> - Optimal solar conditions
-                </li>
-                <li>
-                  <strong>High electricity rates</strong> - ₹7.50-9/unit makes solar attractive
-                </li>
-                <li>
-                  <strong>PM-KUSUM subsidies</strong> - 60% government support available
-                </li>
-                <li>
-                  <strong>Frequent power cuts</strong> - Solar ensures daytime water supply
-                </li>
-                <li>
-                  <strong>Environmental benefits</strong> - Zero carbon emissions
-                </li>
-              </ul>
-              <p className="mb-3">
-                <strong>Best solar pumps for Hyderabad:</strong>
-              </p>
+              <p className="mb-3">Safe online buying checklist:</p>
               <ul className="list-disc list-inside space-y-1 mb-4">
-                <li>
-                  <strong>Asian Pumps 24V 250W Solar (₹6,850)</strong> - Most affordable option
-                </li>
-                <li>
-                  <strong>Asian Pumps Solar Submersible (₹9,000)</strong> - For borewells
-                </li>
-                <li>
-                  <strong>Shakti Solar Pumps (₹12,000)</strong> - Higher capacity for large homes
-                </li>
+                <li>Buy only from brand official stores or authorized dealers</li>
+                <li>Check for ISI mark and BEE star rating</li>
+                <li>Read recent customer reviews (not just ratings)</li>
+                <li>Verify warranty terms and service network</li>
+                <li>Ensure return/replacement policy</li>
               </ul>
-              <p className="mb-3">
-                <strong>Total cost analysis (5-year period):</strong>
+              <p className="mb-3">Red flags to avoid:</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Unknown Chinese brands with no service network</li>
+                <li>Prices too good to be true (below ₹2,500 for 0.5 HP)</li>
+                <li>No ISI certification or warranty</li>
+                <li>Sellers with poor ratings</li>
+              </ul>
+              <p className="mb-2">
+                <strong>Trusted ₹3,000-4,000 range pumps:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Solar pump: ₹6,850 - ₹4,000 (subsidy) = ₹2,850 total cost</li>
-                <li>Electric pump: ₹4,000 + ₹18,000 (electricity) = ₹22,000 total cost</li>
                 <li>
-                  <strong>Net savings: ₹19,150 over 5 years</strong>
+                  <strong>Crompton Champ 2</strong> – ₹3,200, reliable brand
+                </li>
+                <li>
+                  <strong>V-Guard Nova Series</strong> – ₹3,500, good service network
                 </li>
               </ul>
             </AccordionContent>
@@ -434,163 +363,44 @@ export default function FAQSection() {
 
           <AccordionItem value="item-10" className="border border-gray-200 rounded-lg px-6">
             <AccordionTrigger className="text-left hover:no-underline">
-              How often should I service my water pump in Indian conditions?
+              How often should I clean or service my water pump?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
               <p className="mb-3">
-                Indian water and power conditions require more frequent maintenance than Western standards:
+                Regular <strong>water pump maintenance</strong> extends lifespan and prevents costly repairs. Indian
+                conditions require more frequent servicing.
               </p>
-              <div className="space-y-4 mb-4">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">Monthly Checks</h4>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Inspect for unusual noises or vibrations</li>
-                    <li>Check for water leaks around joints</li>
-                    <li>Clean external dust and debris</li>
-                    <li>Verify proper ventilation around pump</li>
-                  </ul>
-                </div>
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">Quarterly Service</h4>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Clean strainer/filter thoroughly</li>
-                    <li>Check foot valve functioning</li>
-                    <li>Verify electrical connections</li>
-                    <li>Test auto-controls (pressure pumps)</li>
-                  </ul>
-                </div>
-                <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-800 mb-2">Annual Professional Service</h4>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Replace worn gaskets and seals</li>
-                    <li>Check motor windings and capacitor</li>
-                    <li>Descale pump in hard water areas</li>
-                    <li>Calibrate pressure settings</li>
-                  </ul>
-                </div>
-              </div>
-              <p className="mb-3">
-                <strong>Service costs and intervals:</strong>
-              </p>
-              <ul className="list-disc list-inside space-y-1">
-                <li>
-                  <strong>Basic annual service:</strong> ₹500-800 (prevents ₹3,000+ repairs)
-                </li>
-                <li>
-                  <strong>Hard water areas:</strong> Service every 8 months
-                </li>
-                <li>
-                  <strong>High usage homes:</strong> Service every 10 months
-                </li>
-                <li>
-                  <strong>Voltage fluctuation areas:</strong> Check electrical components every 6 months
-                </li>
-              </ul>
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem value="item-11" className="border border-gray-200 rounded-lg px-6">
-            <AccordionTrigger className="text-left hover:no-underline">
-              What's the best pump for tanker water dependency in Ghaziabad?
-            </AccordionTrigger>
-            <AccordionContent className="text-gray-700">
-              <p className="mb-3">
-                For Ghaziabad's tanker-dependent areas, you need pumps optimized for quick tank filling:
-              </p>
-              <p className="mb-3">
-                <strong>Key requirements:</strong>
-              </p>
-              <ul className="list-disc list-inside space-y-2 mb-4">
-                <li>
-                  <strong>High flow rate</strong> - Fill tanks quickly during tanker delivery
-                </li>
-                <li>
-                  <strong>Self-priming capability</strong> - Start immediately when tanker arrives
-                </li>
-                <li>
-                  <strong>Reliable operation</strong> - Can't afford failures during scarce water times
-                </li>
-                <li>
-                  <strong>Easy maintenance</strong> - Quick repairs when needed
-                </li>
-              </ul>
-              <p className="mb-3">
-                <strong>Best tanker-to-tank pumps for Ghaziabad:</strong>
-              </p>
+              <p className="mb-3">Monthly maintenance (DIY):</p>
               <ul className="list-disc list-inside space-y-1 mb-4">
-                <li>
-                  <strong>Crompton ULTIMO II (₹2,950)</strong> - 7m suction, 1800 LPH flow
-                </li>
-                <li>
-                  <strong>CRI DORA50 (₹3,499)</strong> - Brass impeller, 2000 LPH
-                </li>
-                <li>
-                  <strong>Kirloskar Chhotu Star Ultra (₹4,099)</strong> - Wide voltage tolerance
-                </li>
+                <li>Clean external dust and debris</li>
+                <li>Check for unusual noises or vibrations</li>
+                <li>Inspect for water leaks around joints</li>
+                <li>Ensure proper ventilation around pump</li>
               </ul>
-              <p className="mb-3">
-                <strong>Optimal setup for tanker areas:</strong>
-              </p>
-              <ul className="list-disc list-inside space-y-1">
-                <li>Pair 0.5 HP pump with 1000L overhead tank</li>
-                <li>Install timer switch for automatic filling</li>
-                <li>Use 1.5-inch pipes for faster flow</li>
-                <li>Keep pump primed with foot valve</li>
-              </ul>
-              <p className="mt-3">
-                <strong>Time savings:</strong> Proper pump reduces tank filling time from 60 to 30 minutes, maximizing
-                every tanker delivery.
-              </p>
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem value="item-12" className="border border-gray-200 rounded-lg px-6">
-            <AccordionTrigger className="text-left hover:no-underline">
-              Which pump is most reliable for Pune's hard water and voltage issues?
-            </AccordionTrigger>
-            <AccordionContent className="text-gray-700">
-              <p className="mb-3">
-                Pune faces dual challenges of hard water (400-600 TDS) and voltage fluctuations, requiring robust pumps:
-              </p>
-              <p className="mb-3">
-                <strong>Essential features for Pune conditions:</strong>
-              </p>
-              <ul className="list-disc list-inside space-y-2 mb-4">
-                <li>
-                  <strong>Corrosion-resistant materials</strong> - Brass/stainless steel impellers
-                </li>
-                <li>
-                  <strong>Wide voltage tolerance</strong> - 160-240V operating range
-                </li>
-                <li>
-                  <strong>Thermal protection</strong> - Prevents overheating during voltage spikes
-                </li>
-                <li>
-                  <strong>Easy descaling access</strong> - For hard water maintenance
-                </li>
-              </ul>
-              <p className="mb-3">
-                <strong>Most reliable pumps for Pune homes:</strong>
-              </p>
+              <p className="mb-3">Quarterly cleaning:</p>
               <ul className="list-disc list-inside space-y-1 mb-4">
-                <li>
-                  <strong>Havells Zinnia 2 Plus (₹3,200)</strong> - Silent + corrosion-resistant
-                </li>
-                <li>
-                  <strong>CRI Miki 50 (₹4,200)</strong> - Stainless steel + voltage tolerance
-                </li>
-                <li>
-                  <strong>Crompton SP Aquagold 50 (₹5,499)</strong> - BEE 5-star + hard water ready
-                </li>
+                <li>Clean strainer/filter thoroughly</li>
+                <li>Check foot valve functioning</li>
+                <li>Verify electrical connections are tight</li>
+                <li>Test auto-controls if present</li>
               </ul>
-              <p className="mb-3">
-                <strong>Pune-specific maintenance tips:</strong>
+              <p className="mb-3">Annual professional service (₹500-800):</p>
+              <ul className="list-disc list-inside space-y-1 mb-4">
+                <li>Replace worn gaskets and seals</li>
+                <li>Check motor windings and capacitor</li>
+                <li>Descale pump in hard water areas</li>
+                <li>Calibrate pressure settings</li>
+              </ul>
+              <p className="mb-2">
+                <strong>Low-maintenance pumps:</strong>
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Descale pump every 4-6 months due to hard water</li>
-                <li>Install voltage stabilizer in areas like Kothrud and Wakad</li>
-                <li>Clean strainers monthly to prevent scaling buildup</li>
-                <li>Schedule annual professional service during monsoon</li>
+                <li>
+                  <strong>Grundfos UPA 15-90</strong> – Self-cleaning design
+                </li>
+                <li>
+                  <strong>Crompton Ultimo</strong> – Easy access for maintenance
+                </li>
               </ul>
             </AccordionContent>
           </AccordionItem>

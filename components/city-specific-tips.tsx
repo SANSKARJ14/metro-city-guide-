@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 // Clean city tip component
-const CityTip = ({ title, cities, challenge, solution, savings, icon: Icon }) => (
+const CityTip = ({ title, cities, challenge, solution, savings, recommendations, icon: Icon }) => (
   <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300 bg-white">
     <div className="flex items-start gap-4">
       <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
@@ -34,6 +34,23 @@ const CityTip = ({ title, cities, challenge, solution, savings, icon: Icon }) =>
               <p className="text-sm font-medium text-green-800">💰 {savings}</p>
             </div>
           )}
+          <div className="mt-4 pt-4 border-t border-gray-200">
+            <h4 className="text-sm font-medium text-gray-700 mb-3">Recommended Models:</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {recommendations.map((rec, idx) => (
+                <div key={idx} className="bg-gray-50 p-3 rounded-lg border">
+                  <div className="flex justify-between items-start mb-2">
+                    <h5 className="font-medium text-gray-800 text-sm">{rec.name}</h5>
+                    <span className="text-xs text-gray-600">{rec.price}</span>
+                  </div>
+                  <p className="text-xs text-gray-600 mb-2">{rec.specs}</p>
+                  <button className="text-xs bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
+                    {rec.cta}
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -50,6 +67,20 @@ export default function CitySpecificTips() {
       solution:
         "Use brass/stainless steel pumps like CRI MHBS Series or Asian Pumps Solar Submersible. Clean strainers monthly and avoid budget pumps if TDS >1500 ppm.",
       savings: "Save ₹500/year on repairs + extend pump life by 3-4 years",
+      recommendations: [
+        {
+          name: "CRI MHBS-5",
+          specs: "0.5HP, 25m Head, 1800 LPH",
+          price: "₹8,500-10,000",
+          cta: "Check Availability",
+        },
+        {
+          name: "Asian Solar Brass",
+          specs: "0.75HP, 30m Head, 2200 LPH",
+          price: "₹12,000-15,000",
+          cta: "View Details",
+        },
+      ],
       icon: AlertTriangle,
     },
     {
@@ -60,6 +91,20 @@ export default function CitySpecificTips() {
       solution:
         "Choose wide-voltage pumps like Kirloskar K-Booster (160–240V) or add a ₹2,000 stabilizer. Thermal protection models offer additional safety.",
       savings: "Avoid ₹3,000-5,000 motor replacement costs",
+      recommendations: [
+        {
+          name: "Kirloskar K-Booster",
+          specs: "0.5HP, 22m Head, 1600 LPH",
+          price: "₹7,500-9,000",
+          cta: "Find Dealer",
+        },
+        {
+          name: "Crompton Champ 2",
+          specs: "0.5HP, 20m Head, 1500 LPH",
+          price: "₹6,500-8,000",
+          cta: "Compare Models",
+        },
+      ],
       icon: CheckCircle,
     },
     {
@@ -70,6 +115,20 @@ export default function CitySpecificTips() {
       solution:
         "Pair a 0.5 HP self-priming pump like Crompton ULTIMO II with 1000L tank. Fills in 30 minutes, storing 3 days' supply for family of 4.",
       savings: "Reduce tanker frequency from 3x to 2x per week = ₹800/month",
+      recommendations: [
+        {
+          name: "Crompton ULTIMO II",
+          specs: "0.5HP, 25m Head, 2000 LPH",
+          price: "₹8,000-10,000",
+          cta: "Check Stock",
+        },
+        {
+          name: "Havells Hi-Flow M1",
+          specs: "0.75HP, 28m Head, 2400 LPH",
+          price: "₹9,500-12,000",
+          cta: "Get Quote",
+        },
+      ],
       icon: TrendingUp,
     },
     {
@@ -80,6 +139,20 @@ export default function CitySpecificTips() {
       solution:
         "Install silent boosters like Grundfos UPA 15-90 or SCALA1 3-45 with sound-dampening. Operate below 40dB – quieter than libraries.",
       savings: "Maintain neighborly relations + avoid society penalties",
+      recommendations: [
+        {
+          name: "Grundfos UPA 15-90",
+          specs: "120W, 9m Head, 1500 LPH",
+          price: "₹15,000-18,000",
+          cta: "Learn More",
+        },
+        {
+          name: "Grundfos SCALA2",
+          specs: "550W, 45m Head, 3000 LPH",
+          price: "₹35,000-42,000",
+          cta: "Request Demo",
+        },
+      ],
       icon: Lightbulb,
     },
     {
@@ -90,6 +163,20 @@ export default function CitySpecificTips() {
       solution:
         "Use corrosion-resistant pumps like CRI MHBS Series with stainless steel construction. Install above flood level with waterproof connections.",
       savings: "Extend pump life from 2 to 6+ years = ₹8,000 savings",
+      recommendations: [
+        {
+          name: "CRI MHBS-7",
+          specs: "0.75HP, 35m Head, 2500 LPH",
+          price: "₹12,000-15,000",
+          cta: "Check Features",
+        },
+        {
+          name: "V-Guard Nova SS",
+          specs: "1HP, 40m Head, 3000 LPH",
+          price: "₹14,000-17,000",
+          cta: "View Specs",
+        },
+      ],
       icon: MapPin,
     },
     {
@@ -100,6 +187,20 @@ export default function CitySpecificTips() {
       solution:
         "Use jet pumps like CRI SHALO50 for shallow borewells. 40% cheaper than submersibles with easier maintenance access.",
       savings: "Save ₹4,000-6,000 vs submersible + lower maintenance",
+      recommendations: [
+        {
+          name: "CRI SHALO-50",
+          specs: "0.5HP, 25m Head, 1800 LPH",
+          price: "₹7,000-9,000",
+          cta: "Find Store",
+        },
+        {
+          name: "Kirloskar Jalraaj",
+          specs: "0.75HP, 30m Head, 2200 LPH",
+          price: "₹8,500-11,000",
+          cta: "Compare Price",
+        },
+      ],
       icon: CheckCircle,
     },
     {
@@ -110,6 +211,20 @@ export default function CitySpecificTips() {
       solution:
         "Choose solar pumps like Asian Pumps 24V 250W. Apply for PM-KUSUM subsidies covering 60% costs through state agencies.",
       savings: "Zero electricity bills + ₹15,000-25,000 government subsidy",
+      recommendations: [
+        {
+          name: "Asian Solar 24V",
+          specs: "250W, 20m Head, 1200 LPH",
+          price: "₹18,000-22,000",
+          cta: "Subsidy Info",
+        },
+        {
+          name: "Shakti Solar Pump",
+          specs: "300W, 25m Head, 1500 LPH",
+          price: "₹20,000-25,000",
+          cta: "Calculate Savings",
+        },
+      ],
       icon: TrendingUp,
     },
     {
@@ -120,6 +235,20 @@ export default function CitySpecificTips() {
       solution:
         "Choose BEE 5-star pumps like Crompton SP Aquagold 50. Consume 30% less power while delivering same performance.",
       savings: "Save ₹300/month = ₹3,600 annually on electricity",
+      recommendations: [
+        {
+          name: "Crompton SP Aquagold",
+          specs: "0.5HP, 22m Head, 1600 LPH",
+          price: "₹9,000-11,500",
+          cta: "Energy Calculator",
+        },
+        {
+          name: "V-Guard Nova BEE 5★",
+          specs: "0.75HP, 28m Head, 2000 LPH",
+          price: "₹11,000-14,000",
+          cta: "Efficiency Guide",
+        },
+      ],
       icon: Lightbulb,
     },
   ]

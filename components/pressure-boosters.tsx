@@ -54,6 +54,7 @@ const TradeOffsTable = ({ products }) => (
           <TableHead>Pump</TableHead>
           <TableHead>Pros</TableHead>
           <TableHead>Cons</TableHead>
+          <TableHead>Action</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -62,6 +63,20 @@ const TradeOffsTable = ({ products }) => (
             <TableCell>{product.name}</TableCell>
             <TableCell>{product.pros}</TableCell>
             <TableCell>{product.cons}</TableCell>
+            <TableCell>
+              {product.link ? (
+                <a
+                  href={product.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                >
+                  Check Price
+                </a>
+              ) : (
+                "N/A"
+              )}
+            </TableCell>
           </TableRow>
         ))}
       </TableBody>
@@ -220,60 +235,93 @@ export default function PressureBoosters() {
             <Table>
               <TableHeader>
                 <TableRow>
-                  <TableHead>Pump Name</TableHead>
-                  <TableHead>Power (HP)</TableHead>
-                  <TableHead>Max Head (m)</TableHead>
-                  <TableHead>Flow Rate (LPH)</TableHead>
-                  <TableHead>Price (₹)</TableHead>
-                  <TableHead>Reliability</TableHead>
+                  <TableHead>Name</TableHead>
+                  <TableHead>Specs (Power, Head, Flow)</TableHead>
+                  <TableHead>Price Range</TableHead>
                   <TableHead>Best For</TableHead>
+                  <TableHead>Action</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
                   <TableCell>CRI Pressure Booster Combo</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹4,100 - 4,200</TableCell>
-                  <TableCell>Brass impeller, 180–240V</TableCell>
+                  <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹4,100 - ₹4,200</TableCell>
                   <TableCell>Budget flats (Mumbai, Jaipur)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/4iRAIRo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>V-Guard NEON-NH60</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹3,350 - 3,450</TableCell>
-                  <TableCell>Copper winding, V-Guard service</TableCell>
+                  <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹3,350 - ₹3,450</TableCell>
                   <TableCell>Small flats (Noida, Lucknow)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/3PcIzLG"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Havells HBTM-2</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹8,450 - 8,550</TableCell>
-                  <TableCell>Silent, thermal protection</TableCell>
+                  <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹8,450 - ₹8,550</TableCell>
                   <TableCell>Premium flats (Pune, Chandigarh)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/41Nl2IM"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Crompton Mini Force</TableCell>
-                  <TableCell>1.0</TableCell>
-                  <TableCell>40</TableCell>
-                  <TableCell>3000</TableCell>
-                  <TableCell>₹9,350 - 9,450</TableCell>
-                  <TableCell>Auto-cutoff, 180–240V</TableCell>
+                  <TableCell>1.0 HP | 40m | 3000 LPH</TableCell>
+                  <TableCell>₹9,350 - ₹9,450</TableCell>
                   <TableCell>High-rise flats (Gurgaon, Hyderabad)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/4fGJ5MK"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Kirloskar K-Booster</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹5,950 - 6,050</TableCell>
-                  <TableCell>Compact, high-efficiency</TableCell>
+                  <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹5,950 - ₹6,050</TableCell>
                   <TableCell>Budget flats (Lucknow, Indore)</TableCell>
+                  <TableCell>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -285,26 +333,31 @@ export default function PressureBoosters() {
                 name: "CRI Pressure Booster Combo",
                 pros: "Good value, brass impeller durability, voltage tolerance",
                 cons: "Basic features, no silent operation",
+                link: "https://amzn.to/4iRAIRo",
               },
               {
                 name: "V-Guard NEON-NH60",
                 pros: "Most affordable, copper winding, good service network",
                 cons: "Basic design, no advanced features",
+                link: "https://amzn.to/3PcIzLG",
               },
               {
                 name: "Havells HBTM-2",
                 pros: "Silent operation, thermal protection, premium brand",
                 cons: "Most expensive in budget category",
+                link: "https://amzn.to/41Nl2IM",
               },
               {
                 name: "Crompton Mini Force",
                 pros: "1 HP power, high head, auto-cutoff protection",
                 cons: "Higher power consumption, premium pricing",
+                link: "https://amzn.to/4fGJ5MK",
               },
               {
                 name: "Kirloskar K-Booster",
                 pros: "Compact design, high efficiency, reliable brand",
                 cons: "Mid-range pricing, standard features",
+                link: null,
               },
             ]}
           />
@@ -453,60 +506,93 @@ export default function PressureBoosters() {
             <Table>
               <TableHeader>
                 <TableRow>
-                  <TableHead>Pump Name</TableHead>
-                  <TableHead>Power (HP)</TableHead>
-                  <TableHead>Max Head (m)</TableHead>
-                  <TableHead>Flow Rate (LPH)</TableHead>
-                  <TableHead>Price (₹)</TableHead>
-                  <TableHead>Reliability</TableHead>
+                  <TableHead>Name</TableHead>
+                  <TableHead>Specs (Power, Head, Flow)</TableHead>
+                  <TableHead>Price Range</TableHead>
                   <TableHead>Best For</TableHead>
+                  <TableHead>Action</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
                   <TableCell>Grundfos SCALA2</TableCell>
-                  <TableCell>0.75</TableCell>
-                  <TableCell>45</TableCell>
-                  <TableCell>3500</TableCell>
-                  <TableCell>₹54,500 - 55,500</TableCell>
-                  <TableCell>Silent, smart control, Grundfos service</TableCell>
+                  <TableCell>0.75 HP | 45m | 3500 LPH</TableCell>
+                  <TableCell>₹54,500 - ₹55,500</TableCell>
                   <TableCell>Villas (Gurgaon, Chandigarh)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/3P8aLzi"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Havells HBTJSE1</TableCell>
-                  <TableCell>1.0</TableCell>
-                  <TableCell>35</TableCell>
-                  <TableCell>3000</TableCell>
-                  <TableCell>₹24,900 - 25,100</TableCell>
-                  <TableCell>Silent, corrosion-proof, Havells service</TableCell>
+                  <TableCell>1.0 HP | 35m | 3000 LPH</TableCell>
+                  <TableCell>₹24,900 - ₹25,100</TableCell>
                   <TableCell>High-rise flats (Pune, Hyderabad)</TableCell>
+                  <TableCell>
+                    <a
+                      href="https://amzn.to/49OCChk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Grundfos UPA 15-90 Domestic</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>25</TableCell>
-                  <TableCell>2000</TableCell>
-                  <TableCell>₹17,400 - 17,600</TableCell>
-                  <TableCell>Silent, compact, smart control</TableCell>
+                  <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
+                  <TableCell>₹17,400 - ₹17,600</TableCell>
                   <TableCell>Premium flats (Gurgaon, Bangalore)</TableCell>
+                  <TableCell>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Grundfos SCALA1 3-45</TableCell>
-                  <TableCell>0.75</TableCell>
-                  <TableCell>40</TableCell>
-                  <TableCell>3000</TableCell>
-                  <TableCell>₹44,800 - 45,200</TableCell>
-                  <TableCell>Silent, app-enabled, Grundfos service</TableCell>
+                  <TableCell>0.75 HP | 40m | 3000 LPH</TableCell>
+                  <TableCell>₹44,800 - ₹45,200</TableCell>
                   <TableCell>Villas (Bangalore, Chandigarh)</TableCell>
+                  <TableCell>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>CRI Pressure Booster MHBS Series</TableCell>
-                  <TableCell>1.0</TableCell>
-                  <TableCell>35</TableCell>
-                  <TableCell>2500</TableCell>
-                  <TableCell>₹13,400 - 13,600</TableCell>
-                  <TableCell>Stainless steel, corrosion-proof</TableCell>
+                  <TableCell>1.0 HP | 35m | 2500 LPH</TableCell>
+                  <TableCell>₹13,400 - ₹13,600</TableCell>
                   <TableCell>Coastal flats (Mumbai, Thane)</TableCell>
+                  <TableCell>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      Check Price
+                    </a>
+                  </TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -518,26 +604,31 @@ export default function PressureBoosters() {
                 name: "Grundfos SCALA2",
                 pros: "Highest flow, smart app control, ultra-silent, German engineering",
                 cons: "Most expensive, complex installation",
+                link: "https://amzn.to/3P8aLzi",
               },
               {
                 name: "Havells HBTJSE1",
                 pros: "Good value in premium range, silent operation, 1 HP power",
                 cons: "No app control, basic smart features",
+                link: "https://amzn.to/49OCChk",
               },
               {
                 name: "Grundfos UPA 15-90 Domestic",
                 pros: "Compact design, Grundfos reliability, smart features",
                 cons: "Lower flow rate, premium pricing for 0.5 HP",
+                link: null,
               },
               {
                 name: "Grundfos SCALA1 3-45",
                 pros: "App-enabled, variable speed, excellent performance",
                 cons: "High price, requires technical installation",
+                link: null,
               },
               {
                 name: "CRI Pressure Booster MHBS Series",
                 pros: "Most affordable premium option, coastal-ready, stainless steel",
                 cons: "Lower flow rate, basic features compared to Grundfos",
+                link: null,
               },
             ]}
           />

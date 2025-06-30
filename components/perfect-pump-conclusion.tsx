@@ -46,7 +46,7 @@ export default function PerfectPumpConclusion() {
     {
       rank: 1,
       title: "Crompton Ultimo II",
-      price: "₹3,500 - ₹4,000",
+      price: "₹2,820 - ₹3,440",
       hp: "0.5 HP",
       bestFor: "Reliable performance for mid-sized homes",
       features: [
@@ -55,33 +55,33 @@ export default function PerfectPumpConclusion() {
         "Durable cast iron body",
         "Wide voltage operation",
       ],
-      link: "https://amzn.to/crompton-ultimo-ii", // Placeholder link
+      link: "https://amzn.to/4l8sFjT",
       badge: "Top Performer",
     },
     {
       rank: 2,
       title: "Crompton Mini Crest II",
-      price: "₹2,800 - ₹3,300",
+      price: "₹3,180 - ₹3,880",
       hp: "0.5 HP",
       bestFor: "Compact spaces and small apartments",
       features: ["Lightweight and portable", "Energy efficient motor", "Corrosion resistant body", "Easy to install"],
-      link: "https://amzn.to/crompton-mini-crest-ii", // Placeholder link
+      link: "https://amzn.to/40qIeuM",
       badge: "Compact Pick",
     },
     {
       rank: 3,
       title: "Kirloskar Chhotu Star Ultra",
-      price: "₹4,000 - ₹4,500",
+      price: "₹4,000 - ₹4,200",
       hp: "0.5 HP",
       bestFor: "Voltage-unstable areas (Jaipur, Uttam Nagar)",
       features: ["Wide-voltage tolerance", "Kirloskar service network", "Thermal protection", "Proven reliability"],
-      link: "https://amzn.to/49ZITH9",
+      link: "https://amzn.to/3TghGbS",
       badge: "Most Reliable",
     },
     {
       rank: 4,
       title: "CRI DORA50",
-      price: "₹3,400 - ₹3,900",
+      price: "₹3,400 - ₹3,600",
       hp: "0.5 HP",
       bestFor: "Budget flats (Lucknow, Ghaziabad)",
       features: [
@@ -90,17 +90,17 @@ export default function PerfectPumpConclusion() {
         "2000 LPH reliable flow",
         "Best value for money",
       ],
-      link: "https://amzn.to/41RyYBr",
+      link: "https://amzn.to/3Tce36K",
       badge: "Best Value",
     },
     {
       rank: 5,
       title: "Grundfos SCALA2",
-      price: "₹55,000 - ₹60,000",
+      price: "₹46,350 - ₹56,650",
       hp: "0.75 HP",
       bestFor: "Luxury villas (Gurgaon, Chandigarh)",
       features: ["Silent operation (<40dB)", "Smart app controls", "45m head capacity", "German engineering"],
-      link: "https://amzn.to/3P8aLzi",
+      link: "https://amzn.to/40peIFF",
       badge: "Premium Choice",
     },
   ]
@@ -268,26 +268,26 @@ export default function PerfectPumpConclusion() {
             <div>
               <h4 className="font-semibold text-gray-800 mb-2">For Most Urban Homes</h4>
               <p className="text-gray-700 text-sm mb-3">
-                The <strong>Crompton Champ 2</strong> at ₹3,800 offers robust performance and reliability for everyday
-                urban use. Its durable construction and efficient motor make it a popular choice for flats and small
-                homes, ensuring consistent water supply.
+                The <strong>Crompton CHAMP PLUS II</strong> at ₹2,800 - ₹3,000 offers robust performance and reliability
+                for everyday urban use. Its durable construction and efficient motor make it a popular choice for flats
+                and small homes, ensuring consistent water supply.
               </p>
-              <Link href="https://amzn.to/your-crompton-champ-2-link" target="_blank" rel="noopener noreferrer">
+              <Link href="https://amzn.to/446ifv1" target="_blank" rel="noopener noreferrer">
                 <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-                  Buy Crompton Champ 2 →
+                  Buy Crompton CHAMP PLUS II →
                 </Button>
               </Link>
             </div>
             <div>
               <h4 className="font-semibold text-gray-800 mb-2">For Premium Homes</h4>
               <p className="text-gray-700 text-sm mb-3">
-                The <strong>Grundfos 15-90</strong> at ₹62,000 is a high-end booster pump designed for superior water
-                pressure and silent operation in luxury residences. Its advanced features ensure optimal water flow and
-                comfort.
+                The <strong>Grundfos Pumps UPA 15-90</strong> at ₹14,040 - ₹17,160 is a high-end booster pump designed
+                for superior water pressure and silent operation in luxury residences. Its advanced features ensure
+                optimal water flow and comfort.
               </p>
-              <Link href="https://amzn.to/your-grundfos-15-90-link" target="_blank" rel="noopener noreferrer">
+              <Link href="https://amzn.to/4enUm5A" target="_blank" rel="noopener noreferrer">
                 <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-                  Buy Grundfos 15-90 →
+                  Buy Grundfos Pumps UPA 15-90 →
                 </Button>
               </Link>
             </div>

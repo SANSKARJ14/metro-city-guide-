@@ -151,7 +151,7 @@ export default function PressureBoosters() {
             <AffiliateBox
               title="CRI Pressure Booster Combo"
               version="0.5 HP"
-              price="4,100 - 4,200"
+              price="3,910 - 4,780"
               bestFor="Budget flats (Mumbai, Jaipur)"
               warranty="1 year"
               technicalDetails={[
@@ -160,13 +160,13 @@ export default function PressureBoosters() {
                 "Brass impeller for durability",
                 "180–240V voltage tolerance",
               ]}
-              link="https://amzn.to/4iRAIRo"
+              link="https://amzn.to/4erKtnj"
               notes="Best value for money with brass impeller durability"
             />
             <AffiliateBox
               title="V-Guard NEON-NH60"
               version="0.5 HP"
-              price="3,350 - 3,450"
+              price="3,060 - 3,740"
               bestFor="Small flats (Noida, Lucknow)"
               warranty="2 years"
               technicalDetails={[
@@ -175,13 +175,13 @@ export default function PressureBoosters() {
                 "Copper winding motor",
                 "V-Guard service network",
               ]}
-              link="https://amzn.to/3PcIzLG"
+              link="https://amzn.to/3I3pFGQ"
               notes="Most affordable option with copper winding reliability"
             />
             <AffiliateBox
               title="Havells HBTM-2"
               version="0.5 HP"
-              price="8,450 - 8,550"
+              price="7,740 - 9,460"
               bestFor="Premium flats (Pune, Chandigarh)"
               warranty="2 years"
               technicalDetails={[
@@ -190,7 +190,7 @@ export default function PressureBoosters() {
                 "Silent technology design",
                 "Thermal protection feature",
               ]}
-              link="https://amzn.to/41Nl2IM"
+              link="https://amzn.to/4l8QNTs"
               notes="Silent operation ideal for noise-sensitive areas"
             />
           </div>
@@ -198,7 +198,7 @@ export default function PressureBoosters() {
             <AffiliateBox
               title="Crompton Mini Force"
               version="1.0 HP"
-              price="9,350 - 9,450"
+              price="8,500 - 10,390"
               bestFor="High-rise flats (Gurgaon, Hyderabad)"
               warranty="2 years"
               technicalDetails={[
@@ -207,13 +207,13 @@ export default function PressureBoosters() {
                 "Auto-cutoff protection",
                 "180–240V voltage tolerance",
               ]}
-              link="https://amzn.to/4fGJ5MK"
+              link="https://amzn.to/4kiDVsJ"
               notes="1 HP power ideal for high-rise flats above 10th floor"
             />
             <AffiliateBox
               title="Kirloskar K-Booster"
               version="0.5 HP"
-              price="5,950 - 6,050"
+              price="8,820 - 10,780"
               bestFor="Budget flats (Lucknow, Indore)"
               warranty="2 years"
               technicalDetails={[
@@ -222,7 +222,7 @@ export default function PressureBoosters() {
                 "Compact design saves space",
                 "High-efficiency motor",
               ]}
-              link="#"
+              link="https://amzn.to/4lzRqp4"
               notes="Compact design perfect for small utility areas"
             />
             <div className="hidden md:block"></div>
@@ -246,11 +246,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>CRI Pressure Booster Combo</TableCell>
                   <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹4,100 - ₹4,200</TableCell>
+                  <TableCell>₹3,910 - ₹4,780</TableCell>
                   <TableCell>Budget flats (Mumbai, Jaipur)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/4iRAIRo"
+                      href="https://amzn.to/4erKtnj"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -262,11 +262,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>V-Guard NEON-NH60</TableCell>
                   <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹3,350 - ₹3,450</TableCell>
+                  <TableCell>₹3,060 - ₹3,740</TableCell>
                   <TableCell>Small flats (Noida, Lucknow)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/3PcIzLG"
+                      href="https://amzn.to/3I3pFGQ"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -278,11 +278,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>Havells HBTM-2</TableCell>
                   <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹8,450 - ₹8,550</TableCell>
+                  <TableCell>₹7,740 - ₹9,460</TableCell>
                   <TableCell>Premium flats (Pune, Chandigarh)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/41Nl2IM"
+                      href="https://amzn.to/4l8QNTs"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -294,11 +294,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>Crompton Mini Force</TableCell>
                   <TableCell>1.0 HP | 40m | 3000 LPH</TableCell>
-                  <TableCell>₹9,350 - ₹9,450</TableCell>
+                  <TableCell>₹8,500 - ₹10,390</TableCell>
                   <TableCell>High-rise flats (Gurgaon, Hyderabad)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/4fGJ5MK"
+                      href="https://amzn.to/4kiDVsJ"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -310,11 +310,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>Kirloskar K-Booster</TableCell>
                   <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹5,950 - ₹6,050</TableCell>
+                  <TableCell>₹8,820 - ₹10,780</TableCell>
                   <TableCell>Budget flats (Lucknow, Indore)</TableCell>
                   <TableCell>
                     <a
-                      href="#"
+                      href="https://amzn.to/4lzRqp4"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -333,31 +333,31 @@ export default function PressureBoosters() {
                 name: "CRI Pressure Booster Combo",
                 pros: "Good value, brass impeller durability, voltage tolerance",
                 cons: "Basic features, no silent operation",
-                link: "https://amzn.to/4iRAIRo",
+                link: "https://amzn.to/4erKtnj",
               },
               {
                 name: "V-Guard NEON-NH60",
                 pros: "Most affordable, copper winding, good service network",
                 cons: "Basic design, no advanced features",
-                link: "https://amzn.to/3PcIzLG",
+                link: "https://amzn.to/3I3pFGQ",
               },
               {
                 name: "Havells HBTM-2",
                 pros: "Silent operation, thermal protection, premium brand",
                 cons: "Most expensive in budget category",
-                link: "https://amzn.to/41Nl2IM",
+                link: "https://amzn.to/4l8QNTs",
               },
               {
                 name: "Crompton Mini Force",
                 pros: "1 HP power, high head, auto-cutoff protection",
                 cons: "Higher power consumption, premium pricing",
-                link: "https://amzn.to/4fGJ5MK",
+                link: "https://amzn.to/4kiDVsJ",
               },
               {
                 name: "Kirloskar K-Booster",
                 pros: "Compact design, high efficiency, reliable brand",
                 cons: "Mid-range pricing, standard features",
-                link: null,
+                link: "https://amzn.to/4lzRqp4",
               },
             ]}
           />
@@ -422,7 +422,7 @@ export default function PressureBoosters() {
             <AffiliateBox
               title="Grundfos SCALA2"
               version="0.75 HP"
-              price="54,500 - 55,500"
+              price="46,350 - 56,650"
               bestFor="Villas (Gurgaon, Chandigarh)"
               warranty="2 years"
               technicalDetails={[
@@ -431,13 +431,13 @@ export default function PressureBoosters() {
                 "Silent operation (<40dB)",
                 "Smart control with app",
               ]}
-              link="https://amzn.to/3P8aLzi"
+              link="https://amzn.to/40peIFF"
               notes="Top-of-the-line with German engineering and smart features"
             />
             <AffiliateBox
               title="Havells HBTJSE1"
               version="1.0 HP"
-              price="24,900 - 25,100"
+              price="19,800 - 24,200"
               bestFor="High-rise flats (Pune, Hyderabad)"
               warranty="2 years"
               technicalDetails={[
@@ -446,13 +446,13 @@ export default function PressureBoosters() {
                 "Silent operation technology",
                 "Corrosion-proof materials",
               ]}
-              link="https://amzn.to/49OCChk"
+              link="https://amzn.to/4l8Sb8G"
               notes="Best value in premium category with silent operation"
             />
             <AffiliateBox
               title="Grundfos UPA 15-90 Domestic"
               version="0.5 HP"
-              price="17,400 - 17,600"
+              price="14,040 - 17,160"
               bestFor="Premium flats (Gurgaon, Bangalore)"
               warranty="2 years"
               technicalDetails={[
@@ -461,7 +461,7 @@ export default function PressureBoosters() {
                 "Silent and compact design",
                 "Smart control features",
               ]}
-              link="#"
+              link="https://amzn.to/4enUm5A"
               notes="Compact premium option with Grundfos reliability"
             />
           </div>
@@ -469,7 +469,7 @@ export default function PressureBoosters() {
             <AffiliateBox
               title="Grundfos SCALA1 3-45"
               version="0.75 HP"
-              price="44,800 - 45,200"
+              price="50,400 - 61,600"
               bestFor="Villas (Bangalore, Chandigarh)"
               warranty="2 years"
               technicalDetails={[
@@ -478,13 +478,13 @@ export default function PressureBoosters() {
                 "Silent operation with app",
                 "Grundfos service network",
               ]}
-              link="#"
+              link="https://amzn.to/3ZUTKys"
               notes="App-enabled control with variable speed drive"
             />
             <AffiliateBox
               title="CRI Pressure Booster MHBS Series"
               version="1.0 HP"
-              price="13,400 - 13,600"
+              price="23,860 - 29,160"
               bestFor="Coastal flats (Mumbai, Thane)"
               warranty="1 year"
               technicalDetails={[
@@ -493,7 +493,7 @@ export default function PressureBoosters() {
                 "Stainless steel construction",
                 "Corrosion-proof design",
               ]}
-              link="#"
+              link="https://amzn.to/4l8Upoy"
               notes="Specialized for coastal areas with salt air resistance"
             />
             <div className="hidden md:block"></div>
@@ -517,11 +517,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>Grundfos SCALA2</TableCell>
                   <TableCell>0.75 HP | 45m | 3500 LPH</TableCell>
-                  <TableCell>₹54,500 - ₹55,500</TableCell>
+                  <TableCell>₹46,350 - ₹56,650</TableCell>
                   <TableCell>Villas (Gurgaon, Chandigarh)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/3P8aLzi"
+                      href="https://amzn.to/40peIFF"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -533,11 +533,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>Havells HBTJSE1</TableCell>
                   <TableCell>1.0 HP | 35m | 3000 LPH</TableCell>
-                  <TableCell>₹24,900 - ₹25,100</TableCell>
+                  <TableCell>₹19,800 - ₹24,200</TableCell>
                   <TableCell>High-rise flats (Pune, Hyderabad)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/49OCChk"
+                      href="https://amzn.to/4l8Sb8G"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -549,11 +549,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>Grundfos UPA 15-90 Domestic</TableCell>
                   <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹17,400 - ₹17,600</TableCell>
+                  <TableCell>₹14,040 - ₹17,160</TableCell>
                   <TableCell>Premium flats (Gurgaon, Bangalore)</TableCell>
                   <TableCell>
                     <a
-                      href="#"
+                      href="https://amzn.to/4enUm5A"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -565,11 +565,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>Grundfos SCALA1 3-45</TableCell>
                   <TableCell>0.75 HP | 40m | 3000 LPH</TableCell>
-                  <TableCell>₹44,800 - ₹45,200</TableCell>
+                  <TableCell>₹50,400 - ₹61,600</TableCell>
                   <TableCell>Villas (Bangalore, Chandigarh)</TableCell>
                   <TableCell>
                     <a
-                      href="#"
+                      href="https://amzn.to/3ZUTKys"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -581,11 +581,11 @@ export default function PressureBoosters() {
                 <TableRow>
                   <TableCell>CRI Pressure Booster MHBS Series</TableCell>
                   <TableCell>1.0 HP | 35m | 2500 LPH</TableCell>
-                  <TableCell>₹13,400 - ₹13,600</TableCell>
+                  <TableCell>₹23,860 - ₹29,160</TableCell>
                   <TableCell>Coastal flats (Mumbai, Thane)</TableCell>
                   <TableCell>
                     <a
-                      href="#"
+                      href="https://amzn.to/4l8Upoy"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -604,31 +604,31 @@ export default function PressureBoosters() {
                 name: "Grundfos SCALA2",
                 pros: "Highest flow, smart app control, ultra-silent, German engineering",
                 cons: "Most expensive, complex installation",
-                link: "https://amzn.to/3P8aLzi",
+                link: "https://amzn.to/40peIFF",
               },
               {
                 name: "Havells HBTJSE1",
                 pros: "Good value in premium range, silent operation, 1 HP power",
                 cons: "No app control, basic smart features",
-                link: "https://amzn.to/49OCChk",
+                link: "https://amzn.to/4l8Sb8G",
               },
               {
                 name: "Grundfos UPA 15-90 Domestic",
                 pros: "Compact design, Grundfos reliability, smart features",
                 cons: "Lower flow rate, premium pricing for 0.5 HP",
-                link: null,
+                link: "https://amzn.to/4enUm5A",
               },
               {
                 name: "Grundfos SCALA1 3-45",
                 pros: "App-enabled, variable speed, excellent performance",
                 cons: "High price, requires technical installation",
-                link: null,
+                link: "https://amzn.to/3ZUTKys",
               },
               {
                 name: "CRI Pressure Booster MHBS Series",
                 pros: "Most affordable premium option, coastal-ready, stainless steel",
                 cons: "Lower flow rate, basic features compared to Grundfos",
-                link: null,
+                link: "https://amzn.to/4l8Upoy",
               },
             ]}
           />

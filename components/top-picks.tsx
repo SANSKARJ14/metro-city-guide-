@@ -51,7 +51,7 @@ export default function TopPicks() {
           <tbody className="divide-y divide-gray-100">
             <tr className="hover:bg-blue-50/50 transition-colors duration-200">
               <td className="px-6 py-5">
-                <div className="font-semibold text-gray-900 text-base">Crompton Champ 2</div>
+                <div className="font-semibold text-gray-900 text-base">Crompton CHAMP PLUS II</div>
                 <div className="text-sm text-gray-600 mt-1">BEE 5-Star Rated</div>
               </td>
               <td className="px-6 py-5">
@@ -74,12 +74,12 @@ export default function TopPicks() {
                 2-3 BHK flats facing voltage fluctuations in Delhi NCR & Jaipur
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹4,100 - ₹4,500</div>
+                <div className="font-bold text-green-600 text-lg">₹2,800 - ₹3,000</div>
                 <div className="text-xs text-gray-500 mt-1">Market Price</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/crompton-champ"
+                  href="https://amzn.to/446ifv1"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -111,12 +111,12 @@ export default function TopPicks() {
                 Budget homes in voltage-unstable areas like Uttam Nagar & rural outskirts
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹3,900 - ₹4,300</div>
+                <div className="font-bold text-green-600 text-lg">₹4,000 - ₹4,200</div>
                 <div className="text-xs text-gray-500 mt-1">Best Value</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/49ZITH9"
+                  href="https://amzn.to/3TghGbS"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -148,12 +148,12 @@ export default function TopPicks() {
                 Independent houses with inverter backup in Najafgarh & Ahmedabad suburbs
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹7,500 - ₹8,200</div>
+                <div className="font-bold text-green-600 text-lg">₹6,800 - ₹8,310</div>
                 <div className="text-xs text-gray-500 mt-1">Premium Range</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/4grIK1M"
+                  href="https://amzn.to/44vtv35"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -162,7 +162,7 @@ export default function TopPicks() {
             </tr>
             <tr className="hover:bg-blue-50/50 transition-colors duration-200">
               <td className="px-6 py-5">
-                <div className="font-semibold text-gray-900 text-base">Kirloskar KP4 JALRAAJ UVA</div>
+                <div className="font-semibold text-gray-900 text-base">Kirloskar Kp4 Jalraaj Uva 60-1010</div>
                 <div className="text-sm text-gray-600 mt-1">Submersible Series</div>
               </td>
               <td className="px-6 py-5">
@@ -185,12 +185,12 @@ export default function TopPicks() {
                 Deep borewells & high-rise buildings (8+ floors) in Chhatarpur & Bangalore
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹12,000 - ₹13,000</div>
+                <div className="font-bold text-green-600 text-lg">₹9,890 - ₹12,090</div>
                 <div className="text-xs text-gray-500 mt-1">Professional Grade</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/kirloskar-jalraaj"
+                  href="https://amzn.to/446jb2v"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -222,12 +222,12 @@ export default function TopPicks() {
                 Small 1-2 BHK flats with basic water pressure needs in Noida & Jaipur
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹3,100 - ₹3,400</div>
+                <div className="font-bold text-green-600 text-lg">₹2,790 - ₹3,410</div>
                 <div className="text-xs text-gray-500 mt-1">Most Affordable</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/4iUUECP"
+                  href="https://amzn.to/4lo75Y8"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -236,7 +236,7 @@ export default function TopPicks() {
             </tr>
             <tr className="hover:bg-blue-50/50 transition-colors duration-200">
               <td className="px-6 py-5">
-                <div className="font-semibold text-gray-900 text-base">Grundfos UPA 15-90</div>
+                <div className="font-semibold text-gray-900 text-base">Grundfos Pumps UPA 15-90</div>
                 <div className="text-sm text-gray-600 mt-1">Silent Operation</div>
               </td>
               <td className="px-6 py-5">
@@ -259,12 +259,12 @@ export default function TopPicks() {
                 Premium apartments requiring whisper-quiet operation in Gurgaon & Bangalore
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹17,000 - ₹18,000</div>
+                <div className="font-bold text-green-600 text-lg">₹14,040 - ₹17,160</div>
                 <div className="text-xs text-gray-500 mt-1">European Quality</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/grundfos-upa"
+                  href="https://amzn.to/4enUm5A"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -296,12 +296,12 @@ export default function TopPicks() {
                 Luxury villas & penthouses with smart home integration in Chandigarh & Mumbai
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹54,000 - ₹56,000</div>
+                <div className="font-bold text-green-600 text-lg">₹46,350 - ₹56,650</div>
                 <div className="text-xs text-gray-500 mt-1">Ultra Premium</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/3P8aLzi"
+                  href="https://amzn.to/40peIFF"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -310,7 +310,7 @@ export default function TopPicks() {
             </tr>
             <tr className="hover:bg-blue-50/50 transition-colors duration-200">
               <td className="px-6 py-5">
-                <div className="font-semibold text-gray-900 text-base">Crompton Ultimo</div>
+                <div className="font-semibold text-gray-900 text-base">Crompton Ultimo 1HP</div>
                 <div className="text-sm text-gray-600 mt-1">High Performance</div>
               </td>
               <td className="px-6 py-5">
@@ -333,12 +333,12 @@ export default function TopPicks() {
                 Mid-size homes demanding consistent high-pressure supply in Rohini & Pune
               </td>
               <td className="px-6 py-5">
-                <div className="font-bold text-green-600 text-lg">₹8,700 - ₹9,300</div>
+                <div className="font-bold text-green-600 text-lg">₹3,650 - ₹4,460</div>
                 <div className="text-xs text-gray-500 mt-1">Performance Leader</div>
               </td>
               <td className="px-6 py-5 text-center">
                 <Link
-                  href="https://amzn.to/crompton-ultimo"
+                  href="https://amzn.to/45HGjpe"
                   className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   Buy Now →
@@ -356,11 +356,11 @@ export default function TopPicks() {
             <h3 className="font-semibold text-lg">Best Budget Pick</h3>
           </div>
           <p className="text-gray-700 mb-3">
-            For budget-conscious urban buyers, the <strong>V-Guard Nova Series</strong> at just ₹3,227 offers
+            For budget-conscious urban buyers, the <strong>V-Guard Nova Series</strong> at just ₹2,790 - ₹3,410 offers
             exceptional value. With 160–240V tolerance and copper winding, it's perfect for small flats in areas with
             voltage fluctuations like Noida and Jaipur.
           </p>
-          <Link href="https://amzn.to/4iUUECP" className="text-blue-600 hover:text-blue-800 font-medium">
+          <Link href="https://amzn.to/4lo75Y8" className="text-blue-600 hover:text-blue-800 font-medium">
             Buy on Amazon →
           </Link>
         </div>
@@ -371,11 +371,11 @@ export default function TopPicks() {
             <h3 className="font-semibold text-lg">Best Premium Pick</h3>
           </div>
           <p className="text-gray-700 mb-3">
-            For luxury homes and villas, the <strong>Grundfos SCALA2</strong> at ₹55,000 delivers unmatched performance.
-            With 45m head, 3500 LPH flow, and smart controls, it's perfect for high-end properties in Gurgaon and
-            Chandigarh.
+            For luxury homes and villas, the <strong>Grundfos SCALA2</strong> at ₹46,350 - ₹56,650 delivers unmatched
+            performance. With 45m head, 3500 LPH flow, and smart controls, it's perfect for high-end properties in
+            Gurgaon and Chandigarh.
           </p>
-          <Link href="https://amzn.to/3P8aLzi" className="text-blue-600 hover:text-blue-800 font-medium">
+          <Link href="https://amzn.to/40peIFF" className="text-blue-600 hover:text-blue-800 font-medium">
             Explore premium options →
           </Link>
         </div>

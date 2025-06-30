@@ -149,7 +149,7 @@ export default function SubmersibleSolarPumps() {
             <AffiliateBox
               title="CRI Submersible 1 HP"
               version="1.0 HP"
-              price="9,900 - 10,100"
+              price="9,900 - 12,100"
               bestFor="Farmhouses (Bangalore, Hyderabad)"
               warranty="1 year"
               technicalDetails={[
@@ -158,13 +158,13 @@ export default function SubmersibleSolarPumps() {
                 "Sand-resistant design",
                 "CRI service network support",
               ]}
-              link="https://amzn.to/3Rgzz9h"
+              link="https://amzn.to/4lo5VMg"
               notes="Best value for deep borewells with sand-resistant construction"
             />
             <AffiliateBox
               title="Kirloskar KP4 JALRAAJ UVA 60 1010"
               version="1.0 HP"
-              price="12,200 - 12,400"
+              price="9,890 - 12,090"
               bestFor="Houses (Ahmedabad, Noida)"
               warranty="2 years"
               technicalDetails={[
@@ -173,13 +173,13 @@ export default function SubmersibleSolarPumps() {
                 "Durable construction quality",
                 "Kirloskar network support",
               ]}
-              link="https://amzn.to/4c4oZvF"
+              link="https://amzn.to/446jb2v"
               notes="Premium build quality with extensive Kirloskar service network"
             />
             <AffiliateBox
               title="Crompton 4W12BF1.5E"
               version="1.5 HP"
-              price="12,750 - 12,900"
+              price="10,710 - 13,090"
               bestFor="Large homes (Hyderabad, Bangalore)"
               warranty="2 years"
               technicalDetails={[
@@ -188,7 +188,7 @@ export default function SubmersibleSolarPumps() {
                 "Stainless steel construction",
                 "180–240V voltage tolerance",
               ]}
-              link="https://amzn.to/42yB7Cr"
+              link="https://amzn.to/4noFuYM"
               notes="Highest power and flow rate for large homes and deep borewells"
             />
           </div>
@@ -196,7 +196,7 @@ export default function SubmersibleSolarPumps() {
             <AffiliateBox
               title="Asian Pumps 24V 250W Solar"
               version="0.33 HP Solar"
-              price="6,800 - 6,900"
+              price="5,220 - 6,380"
               bestFor="Eco-conscious homes (Ahmedabad, Hyderabad)"
               warranty="2 years"
               technicalDetails={[
@@ -205,24 +205,10 @@ export default function SubmersibleSolarPumps() {
                 "Zero electricity cost operation",
                 "Durable solar-grade materials",
               ]}
-              link="https://amzn.to/3Y3Tn3x"
+              link="https://amzn.to/4loInqG"
               notes="Most affordable solar option with zero operating costs"
             />
-            <AffiliateBox
-              title="Asian Pumps Stainless Steel Solar Submersible"
-              version="0.5 HP Solar"
-              price="8,950 - 9,050"
-              bestFor="Coastal homes (Mumbai, Thane)"
-              warranty="2 years"
-              technicalDetails={[
-                "35m head for medium depth wells",
-                "2500 LPH eco-friendly flow",
-                "Stainless steel coastal-ready",
-                "Solar panel compatible design",
-              ]}
-              link="#"
-              notes="Stainless steel construction ideal for coastal salt air environments"
-            />
+            <div className="hidden md:block"></div>
             <div className="hidden md:block"></div>
           </div>
 
@@ -240,7 +226,7 @@ export default function SubmersibleSolarPumps() {
                   <TableHead>Price (₹)</TableHead>
                   <TableHead>Reliability</TableHead>
                   <TableHead>Best For</TableHead>
-                  <TableHead>Action</TableHead> {/* Added Action column */}
+                  <TableHead>Action</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -249,12 +235,12 @@ export default function SubmersibleSolarPumps() {
                   <TableCell>1.0</TableCell>
                   <TableCell>60</TableCell>
                   <TableCell>3000</TableCell>
-                  <TableCell>₹9,900 - 10,100</TableCell>
+                  <TableCell>₹9,900 - 12,100</TableCell>
                   <TableCell>Sand-resistant, CRI service</TableCell>
                   <TableCell>Farmhouses (Bangalore, Hyderabad)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/3Rgzz9h"
+                      href="https://amzn.to/4lo5VMg"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -268,12 +254,12 @@ export default function SubmersibleSolarPumps() {
                   <TableCell>1.0</TableCell>
                   <TableCell>60</TableCell>
                   <TableCell>3000</TableCell>
-                  <TableCell>₹12,200 - 12,400</TableCell>
+                  <TableCell>₹9,890 - 12,090</TableCell>
                   <TableCell>Durable, Kirloskar network</TableCell>
                   <TableCell>Houses (Ahmedabad, Noida)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/4c4oZvF"
+                      href="https://amzn.to/446jb2v"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -287,12 +273,12 @@ export default function SubmersibleSolarPumps() {
                   <TableCell>1.5</TableCell>
                   <TableCell>70</TableCell>
                   <TableCell>3500</TableCell>
-                  <TableCell>₹12,750 - 12,900</TableCell>
+                  <TableCell>₹10,710 - 13,090</TableCell>
                   <TableCell>Stainless steel, 180–240V</TableCell>
                   <TableCell>Large homes (Hyderabad, Bangalore)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/42yB7Cr"
+                      href="https://amzn.to/4noFuYM"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -306,31 +292,12 @@ export default function SubmersibleSolarPumps() {
                   <TableCell>0.33</TableCell>
                   <TableCell>30</TableCell>
                   <TableCell>2500</TableCell>
-                  <TableCell>₹6,800 - 6,900</TableCell>
+                  <TableCell>₹5,220 - 6,380</TableCell>
                   <TableCell>Solar-powered, durable</TableCell>
                   <TableCell>Eco-conscious homes (Ahmedabad, Hyderabad)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/3Y3Tn3x"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
-                    >
-                      Check Price
-                    </a>
-                  </TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>Asian Pumps Stainless Steel Solar Submersible</TableCell>
-                  <TableCell>0.5</TableCell>
-                  <TableCell>35</TableCell>
-                  <TableCell>2500</TableCell>
-                  <TableCell>₹8,950 - 9,050</TableCell>
-                  <TableCell>Stainless steel, coastal-ready</TableCell>
-                  <TableCell>Coastal homes (Mumbai, Thane)</TableCell>
-                  <TableCell>
-                    <a
-                      href="#"
+                      href="https://amzn.to/4loInqG"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -349,31 +316,25 @@ export default function SubmersibleSolarPumps() {
                 name: "CRI Submersible 1 HP",
                 pros: "Most affordable 1 HP option, sand-resistant design, good CRI support",
                 cons: "Basic features, standard construction materials",
-                link: "https://amzn.to/3Rgzz9h", // Added link
+                link: "https://amzn.to/4lo5VMg",
               },
               {
                 name: "Kirloskar KP4 JALRAAJ UVA 60 1010",
                 pros: "Premium build quality, excellent service network, proven reliability",
                 cons: "Higher price, standard voltage tolerance",
-                link: "https://amzn.to/4c4oZvF", // Added link
+                link: "https://amzn.to/446jb2v",
               },
               {
                 name: "Crompton 4W12BF1.5E",
                 pros: "Highest power and flow, stainless steel, voltage tolerance",
                 cons: "Higher power consumption, premium pricing",
-                link: "https://amzn.to/42yB7Cr", // Added link
+                link: "https://amzn.to/4noFuYM",
               },
               {
                 name: "Asian Pumps 24V 250W Solar",
                 pros: "Zero electricity cost, eco-friendly, most affordable solar option",
                 cons: "Lower power and flow, weather dependent",
-                link: "https://amzn.to/3Y3Tn3x", // Added link
-              },
-              {
-                name: "Asian Pumps Stainless Steel Solar Submersible",
-                pros: "Coastal-ready materials, solar powered, good flow for solar",
-                cons: "Higher solar price, limited to medium depth wells",
-                link: "#", // Added link
+                link: "https://amzn.to/4loInqG",
               },
             ]}
           />

@@ -8,10 +8,7 @@ export default function Introduction() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-8 md:py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-        33+ <span className="bg-yellow-100 px-1 rounded">Best Water Pumps for Indian Homes</span> (2025) –{" "}
-        <span className="bg-yellow-100 px-1 rounded">Pressure</span>,{" "}
-        <span className="bg-yellow-100 px-1 rounded">Booster</span> &{" "}
-        <span className="bg-yellow-100 px-1 rounded">Submersible</span> Picks for Flats & Villas
+        33+ Best Water Pumps for Indian Homes (2025) – Pressure, Booster & Submersible Picks for Flats & Villas
       </h1>
 
       <div className="flex flex-wrap items-center gap-2 text-sm text-gray-600 mb-6">
@@ -47,25 +44,22 @@ export default function Introduction() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
           <p className="text-white p-6 text-sm md:text-base max-w-2xl">
             From Delhi NCR's 30-minute water supply to Mumbai's monsoon woes - our team analyzed 10,000+ Amazon reviews
-            and dealer insights across 12 cities to bring you the definitive urban{" "}
-            <span className="bg-yellow-100 px-1 rounded">water pump</span> guide
+            and dealer insights across 12 cities to bring you the definitive urban water pump guide
           </p>
         </div>
       </div>
 
       <p className="text-lg text-gray-700 mb-4">
         Waking up to weak showers or empty tanks? You're not alone. In cities like Mumbai, Delhi NCR, and Bangalore,
-        over 70% of urban households struggle with unreliable{" "}
-        <span className="bg-yellow-100 px-1 rounded">water pressure</span>, voltage drops, or hard water damage. Whether
-        you're living in a 10th-floor flat or a villa with a deep borewell, the wrong{" "}
-        <span className="bg-yellow-100 px-1 rounded">water pump</span> can mean daily frustration.
+        over 70% of urban households struggle with unreliable <strong>water pressure</strong>, voltage drops, or hard
+        water damage. Whether you're living in a 10th-floor flat or a villa with a deep borewell, the wrong{" "}
+        <strong>water pump</strong> can mean daily frustration.
       </p>
 
       <p className="text-lg text-gray-700 mb-6">
-        That’s why we analyzed 10,000+ verified reviews, tested 33{" "}
-        <span className="bg-yellow-100 px-1 rounded">pumps</span> across 12 cities, and consulted urban dealers to bring
-        you this <span className="bg-yellow-100 px-1 rounded">2025 water pump buying guide</span>—tailored to your home
-        setup, pressure issues, and budget.
+        That’s why we analyzed 10,000+ verified reviews, tested 33 pumps across 12 cities, and consulted urban dealers
+        to bring you this 2025 <strong>water pump buying guide</strong>—tailored to your home setup, pressure issues,
+        and budget.
       </p>
 
       {/* Why This Guide is Different Callout Box */}
@@ -76,13 +70,7 @@ export default function Introduction() {
         </h2>
         <ul className="list-disc list-inside text-blue-800 text-sm">
           <li>Real-world data from 12 Indian metros (Delhi, Mumbai, Bangalore, etc.)</li>
-          <li>
-            Tested 33+ <span className="bg-yellow-100 px-1 rounded">pumps</span> across{" "}
-            <span className="bg-yellow-100 px-1 rounded">pressure</span>,{" "}
-            <span className="bg-yellow-100 px-1 rounded">booster</span>,{" "}
-            <span className="bg-yellow-100 px-1 rounded">submersible</span> &{" "}
-            <span className="bg-yellow-100 px-1 rounded">solar</span> types
-          </li>
+          <li>Tested 33+ pumps across pressure, booster, submersible & solar types</li>
           <li>Customer feedback + technician interviews</li>
           <li>Prioritized problems like low pressure, high TDS, voltage drops</li>
         </ul>
@@ -109,7 +97,7 @@ export default function Introduction() {
         <div className="bg-blue-50 p-4 rounded-lg shadow-sm">
           <div className="flex items-center text-blue-800 font-semibold mb-2">
             <Zap className="h-5 w-5 mr-2" />
-            <span className="bg-yellow-100 px-1 rounded">Pressure Pumps</span>
+            Pressure Pumps
           </div>
           <p className="text-blue-800 text-sm">Best for boosting weak municipal supply to upper floors.</p>
           <Link href="#pressure-booster-pumps" className="text-blue-600 text-xs mt-2 block hover:underline">
@@ -120,7 +108,7 @@ export default function Introduction() {
         <div className="bg-green-50 p-4 rounded-lg shadow-sm">
           <div className="flex items-center text-green-800 font-semibold mb-2">
             <Droplet className="h-5 w-5 mr-2" />
-            <span className="bg-yellow-100 px-1 rounded">Submersible Pumps</span>
+            Submersible Pumps
           </div>
           <p className="text-green-800 text-sm">Ideal for deep borewells, sandy water.</p>
           <Link href="#submersible-solar-pumps" className="text-green-600 text-xs mt-2 block hover:underline">
@@ -131,7 +119,7 @@ export default function Introduction() {
         <div className="bg-purple-50 p-4 rounded-lg shadow-sm">
           <div className="flex items-center text-purple-800 font-semibold mb-2">
             <Home className="h-5 w-5 mr-2" />
-            <span className="bg-yellow-100 px-1 rounded">Monoblock Pumps</span>
+            Monoblock Pumps
           </div>
           <p className="text-purple-800 text-sm">All-purpose tank fillers for bungalows & small homes.</p>
           <Link href="#monoblock-pumps-for-daily-use" className="text-purple-600 text-xs mt-2 block hover:underline">
@@ -142,7 +130,7 @@ export default function Introduction() {
         <div className="bg-red-50 p-4 rounded-lg shadow-sm">
           <div className="flex items-center text-red-800 font-semibold mb-2">
             <Lightbulb className="h-5 w-5 mr-2" />
-            <span className="bg-yellow-100 px-1 rounded">Solar Pumps</span>
+            Solar Pumps
           </div>
           <p className="text-red-800 text-sm">Power-cut-resistant and eco-friendly.</p>
           <Link href="#submersible-solar-pumps" className="text-red-600 text-xs mt-2 block hover:underline">
@@ -154,7 +142,7 @@ export default function Introduction() {
       {/* Key Benefits Section (kept as-is as per previous instructions, but can be removed if not needed) */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">
-          Why Your <span className="bg-yellow-100 px-1 rounded">Water Pump</span> Choice Matters in Urban India 2025
+          Why Your Water Pump Choice Matters in Urban India 2025
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="flex gap-3">
@@ -164,9 +152,8 @@ export default function Introduction() {
             <div>
               <h3 className="font-semibold text-gray-800 mb-1">Consistent Water Pressure</h3>
               <p className="text-gray-600 text-sm">
-                The right <span className="bg-yellow-100 px-1 rounded">booster pump</span> ensures strong water flow
-                even during peak hours when municipal pressure drops, protecting your daily routine and appliance
-                performance in cities like Mumbai and Delhi NCR.
+                The right **booster pump** ensures strong water flow even during peak hours when municipal pressure
+                drops, protecting your daily routine and appliance performance in cities like Mumbai and Delhi NCR.
               </p>
             </div>
           </div>
@@ -177,9 +164,8 @@ export default function Introduction() {
             <div>
               <h3 className="font-semibold text-gray-800 mb-1">Energy Efficiency Savings</h3>
               <p className="text-gray-600 text-sm">
-                Modern BEE 5-star <span className="bg-yellow-100 px-1 rounded">water pumps</span> can reduce electricity
-                consumption by up to 30%, saving ₹2,000-3,000 annually for typical urban homes compared to older
-                inefficient models.
+                Modern BEE 5-star **water pumps** can reduce electricity consumption by up to 30%, saving ₹2,000-3,000
+                annually for typical urban homes compared to older inefficient models.
               </p>
             </div>
           </div>
@@ -190,9 +176,8 @@ export default function Introduction() {
             <div>
               <h3 className="font-semibold text-gray-800 mb-1">Reliable Water Supply</h3>
               <p className="text-gray-600 text-sm">
-                Quality <span className="bg-yellow-100 px-1 rounded">submersible pumps</span> can deliver up to 3000
-                LPH, ensuring your overhead tank fills quickly during limited supply windows, maximizing water security
-                for urban families.
+                Quality **submersible pumps** can deliver up to 3000 LPH, ensuring your overhead tank fills quickly
+                during limited supply windows, maximizing water security for urban families.
               </p>
             </div>
           </div>
@@ -203,9 +188,8 @@ export default function Introduction() {
             <div>
               <h3 className="font-semibold text-gray-800 mb-1">Space-Optimized Solutions</h3>
               <p className="text-gray-600 text-sm">
-                Compact <span className="bg-yellow-100 px-1 rounded">pressure pumps</span> and wall-mounted boosters fit
-                perfectly in urban flats, providing powerful performance without compromising valuable living space in
-                cities like Pune and Chandigarh.
+                Compact **pressure pumps** and wall-mounted boosters fit perfectly in urban flats, providing powerful
+                performance without compromising valuable living space in cities like Pune and Chandigarh.
               </p>
             </div>
           </div>
@@ -262,9 +246,9 @@ export default function Introduction() {
       </Card>
 
       <p className="text-lg text-gray-700">
-        If you're unsure which <span className="bg-yellow-100 px-1 rounded">water pump</span> is right for your home,
-        this guide makes it easy. From compact flats in Noida to villas in Bangalore and borewells in Hyderabad, we’ve
-        got 33+ tested models and real-life recommendations for every water challenge urban India throws your way.
+        If you're unsure which <strong>water pump</strong> is right for your home, this guide makes it easy. From
+        compact flats in Noida to villas in Bangalore and borewells in Hyderabad, we’ve got 33+ tested models and
+        real-life recommendations for every water challenge urban India throws your way.
       </p>
 
       {/* Download CTA */}
@@ -272,8 +256,7 @@ export default function Introduction() {
         <div>
           <h3 className="font-semibold text-gray-800 mb-1">Still confused about which water pump to choose?</h3>
           <p className="text-gray-600 text-sm">
-            Get our free urban <span className="bg-yellow-100 px-1 rounded">water pump</span> selection guide with
-            city-specific recommendations for <span className="bg-yellow-100 px-1 rounded">Indian homes</span>
+            Get our free urban water pump selection guide with city-specific recommendations for Indian homes
           </p>
         </div>
         <Link

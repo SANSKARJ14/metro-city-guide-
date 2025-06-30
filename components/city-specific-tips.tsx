@@ -43,7 +43,7 @@ const CityTip = ({ title, cities, challenge, solution, savings, recommendations,
                     <h5 className="font-medium text-gray-800 text-sm">{rec.name}</h5>
                     <span className="text-xs text-gray-600">{rec.price}</span>
                   </div>
-                  <p className="text-xs text-gray-600 mb-2">{rec.specs}</p>
+                  {/* Removed specs line as per request */}
                   <button className="text-xs bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
                     {rec.cta}
                   </button>
@@ -70,15 +70,13 @@ export default function CitySpecificTips() {
       recommendations: [
         {
           name: "CRI MHBS-5",
-          specs: "0.5HP, 25m Head, 1800 LPH",
-          price: "₹8,500-10,000",
-          cta: "Check Availability",
+          price: "₹8,500-10,000", // Placeholder, actual price not in list
+          cta: "Check Price",
         },
         {
           name: "Asian Solar Brass",
-          specs: "0.75HP, 30m Head, 2200 LPH",
-          price: "₹12,000-15,000",
-          cta: "View Details",
+          price: "₹12,000-15,000", // Placeholder, actual price not in list
+          cta: "Check Price",
         },
       ],
       icon: AlertTriangle,
@@ -94,15 +92,13 @@ export default function CitySpecificTips() {
       recommendations: [
         {
           name: "Kirloskar K-Booster",
-          specs: "0.5HP, 22m Head, 1600 LPH",
-          price: "₹7,500-9,000",
-          cta: "Find Dealer",
+          price: "₹8,820-10,780", // 9799 * 0.9 = 8819.1 -> 8820, 9799 * 1.1 = 10778.9 -> 10780
+          cta: "Check Price",
         },
         {
           name: "Crompton Champ 2",
-          specs: "0.5HP, 20m Head, 1500 LPH",
-          price: "₹6,500-8,000",
-          cta: "Compare Models",
+          price: "₹2,520-3,080", // 2800 * 0.9 = 2520, 2800 * 1.1 = 3080
+          cta: "Check Price",
         },
       ],
       icon: CheckCircle,
@@ -118,15 +114,13 @@ export default function CitySpecificTips() {
       recommendations: [
         {
           name: "Crompton ULTIMO II",
-          specs: "0.5HP, 25m Head, 2000 LPH",
-          price: "₹8,000-10,000",
-          cta: "Check Stock",
+          price: "₹2,820-3,440", // 3129 * 0.9 = 2816.1 -> 2820, 3129 * 1.1 = 3441.9 -> 3440
+          cta: "Check Price",
         },
         {
-          name: "Havells Hi-Flow M1",
-          specs: "0.75HP, 28m Head, 2400 LPH",
-          price: "₹9,500-12,000",
-          cta: "Get Quote",
+          name: "Havells Hi-Flow M1 Series",
+          price: "₹6,790-8,310", // 7550 * 0.9 = 6795 -> 6790, 7550 * 1.1 = 8305 -> 8310
+          cta: "Check Price",
         },
       ],
       icon: TrendingUp,
@@ -141,16 +135,14 @@ export default function CitySpecificTips() {
       savings: "Maintain neighborly relations + avoid society penalties",
       recommendations: [
         {
-          name: "Grundfos UPA 15-90",
-          specs: "120W, 9m Head, 1500 LPH",
-          price: "₹15,000-18,000",
-          cta: "Learn More",
+          name: "Grundfos Pumps UPA 15-90",
+          price: "₹14,040-17,160", // 15600 * 0.9 = 14040, 15600 * 1.1 = 17160
+          cta: "Check Price",
         },
         {
-          name: "Grundfos SCALA2",
-          specs: "550W, 45m Head, 3000 LPH",
-          price: "₹35,000-42,000",
-          cta: "Request Demo",
+          name: "GRUNDFOS SCALA 2 3-45",
+          price: "₹50,400-61,600", // 56000 * 0.9 = 50400, 56000 * 1.1 = 61600
+          cta: "Check Price",
         },
       ],
       icon: Lightbulb,
@@ -165,16 +157,14 @@ export default function CitySpecificTips() {
       savings: "Extend pump life from 2 to 6+ years = ₹8,000 savings",
       recommendations: [
         {
-          name: "CRI MHBS-7",
-          specs: "0.75HP, 35m Head, 2500 LPH",
-          price: "₹12,000-15,000",
-          cta: "Check Features",
+          name: "CRI PRESSURE BOOSTER MHBS series",
+          price: "₹23,860-29,160", // 26509 * 0.9 = 23858.1 -> 23860, 26509 * 1.1 = 29159.9 -> 29160
+          cta: "Check Price",
         },
         {
-          name: "V-Guard Nova SS",
-          specs: "1HP, 40m Head, 3000 LPH",
-          price: "₹14,000-17,000",
-          cta: "View Specs",
+          name: "V-GAURD NEON NH60",
+          price: "₹3,060-3,740", // 3400 * 0.9 = 3060, 3400 * 1.1 = 3740
+          cta: "Check Price",
         },
       ],
       icon: MapPin,
@@ -189,16 +179,14 @@ export default function CitySpecificTips() {
       savings: "Save ₹4,000-6,000 vs submersible + lower maintenance",
       recommendations: [
         {
-          name: "CRI SHALO-50",
-          specs: "0.5HP, 25m Head, 1800 LPH",
-          price: "₹7,000-9,000",
-          cta: "Find Store",
+          name: "CRI SHALO50",
+          price: "₹5,900-7,220", // 6559 * 0.9 = 5903.1 -> 5900, 6559 * 1.1 = 7214.9 -> 7220
+          cta: "Check Price",
         },
         {
-          name: "Kirloskar Jalraaj",
-          specs: "0.75HP, 30m Head, 2200 LPH",
-          price: "₹8,500-11,000",
-          cta: "Compare Price",
+          name: "KRILOSKER JALRAJ 2",
+          price: "₹4,680-5,720", // 5199 * 0.9 = 4679.1 -> 4680, 5199 * 1.1 = 5718.9 -> 5720
+          cta: "Check Price",
         },
       ],
       icon: CheckCircle,
@@ -213,16 +201,14 @@ export default function CitySpecificTips() {
       savings: "Zero electricity bills + ₹15,000-25,000 government subsidy",
       recommendations: [
         {
-          name: "Asian Solar 24V",
-          specs: "250W, 20m Head, 1200 LPH",
-          price: "₹18,000-22,000",
-          cta: "Subsidy Info",
+          name: "Asian Pumps 24V 250W Solar",
+          price: "₹5,220-6,380", // 5800 * 0.9 = 5220, 5800 * 1.1 = 6380
+          cta: "Check Price",
         },
         {
           name: "Shakti Solar Pump",
-          specs: "300W, 25m Head, 1500 LPH",
-          price: "₹20,000-25,000",
-          cta: "Calculate Savings",
+          price: "₹20,000-25,000", // Placeholder, actual price not in list
+          cta: "Check Price",
         },
       ],
       icon: TrendingUp,
@@ -237,16 +223,14 @@ export default function CitySpecificTips() {
       savings: "Save ₹300/month = ₹3,600 annually on electricity",
       recommendations: [
         {
-          name: "Crompton SP Aquagold",
-          specs: "0.5HP, 22m Head, 1600 LPH",
-          price: "₹9,000-11,500",
-          cta: "Energy Calculator",
+          name: "Crompton SP Aquagold 50",
+          price: "₹5,390-6,590", // 5995 * 0.9 = 5395.5 -> 5390, 5995 * 1.1 = 6594.5 -> 6590
+          cta: "Check Price",
         },
         {
-          name: "V-Guard Nova BEE 5★",
-          specs: "0.75HP, 28m Head, 2000 LPH",
-          price: "₹11,000-14,000",
-          cta: "Efficiency Guide",
+          name: "V-Guard Nova Series",
+          price: "₹2,790-3,410", // 3100 * 0.9 = 2790, 3100 * 1.1 = 3410
+          cta: "Check Price",
         },
       ],
       icon: Lightbulb,

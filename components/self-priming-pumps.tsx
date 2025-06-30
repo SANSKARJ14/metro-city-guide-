@@ -147,7 +147,7 @@ export default function SelfPrimingPumps() {
             <AffiliateBox
               title="Lakshmi Self Priming Monoblock"
               version="0.5 HP"
-              price="1,780 - 2,180"
+              price="₹1,780–₹2,180"
               bestFor="Small flats (1-2 BHK)"
               warranty="1 year"
               technicalDetails={[
@@ -162,54 +162,54 @@ export default function SelfPrimingPumps() {
             <AffiliateBox
               title="Crompton PRIMO I"
               version="1 HP"
-              price="3,420 - 4,180"
-              bestFor="Medium flats (2-3 BHK), higher flow needs"
+              price="₹3,420–₹4,180"
+              bestFor="Medium flats (2-3 BHK) with higher flow needs"
               warranty="1 year"
               technicalDetails={[
-                "1 HP motor for stronger flow",
-                "Self-priming capability",
-                "Durable construction",
-                "Suitable for overhead tank filling",
+                "8m suction depth for versatile use",
+                "2500 LPH high flow rate",
+                "Thermal overload protector",
+                "Durable cast iron body",
               ]}
               link="https://amzn.to/4nlnnTv"
-              notes="Higher power for faster filling; check voltage stability"
+              notes="Good for faster filling; 1 HP for better performance"
             />
             <AffiliateBox
-              title="CRI Self Priming Monoblock"
+              title="CRI Self Priming Monoblock Pump"
               version="1 HP"
-              price="2,880 - 3,520"
-              bestFor="Budget-friendly 2-3 BHK homes"
+              price="₹2,880–₹3,520"
+              bestFor="Budget-conscious homes needing 1 HP"
               warranty="1 year"
               technicalDetails={[
-                "1 HP motor for efficient water transfer",
-                "Self-priming design",
+                "7m suction depth",
+                "2200 LPH flow rate",
+                "Brass impeller for durability",
                 "Compact and easy to install",
-                "Good for daily tank filling",
               ]}
               link="https://amzn.to/44n5xa3"
-              notes="Cost-effective 1 HP option; reliable for general use"
+              notes="Value for money 1 HP pump; good for daily use"
             />
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             <AffiliateBox
               title="Kirloskar Chotu"
               version="0.5 HP"
-              price="2,970 - 3,630"
-              bestFor="Small flats (1-2 BHK), basic needs"
+              price="₹2,970–₹3,630"
+              bestFor="Basic tank filling needs with Kirloskar reliability"
               warranty="1 year"
               technicalDetails={[
-                "0.5 HP motor for small homes",
-                "Reliable Kirloskar brand",
-                "Compact design",
-                "Easy to operate",
+                "6m suction depth capability",
+                "1800 LPH flow for medium tanks",
+                "Compact design with robust motor",
+                "Suitable for occasional use",
               ]}
               link="https://amzn.to/4k8Dz7L"
-              notes="Ideal for minimal water requirements; known for durability"
+              notes="Reliable Kirloskar brand; good for small to medium tanks"
             />
             <AffiliateBox
               title="Crompton ULTIMO II"
               version="0.5 HP"
-              price="2,820 - 3,440"
+              price="₹2,820–₹3,440"
               bestFor="Rental properties (Lucknow, Noida)"
               warranty="2 years"
               technicalDetails={[
@@ -242,7 +242,7 @@ export default function SelfPrimingPumps() {
                 <TableRow>
                   <TableCell>Lakshmi Self Priming Monoblock</TableCell>
                   <TableCell>0.5 HP | 6m | 1500 LPH</TableCell>
-                  <TableCell>₹1,780 - ₹2,180</TableCell>
+                  <TableCell>₹1,780–₹2,180</TableCell>
                   <TableCell>Small flats (1-2 BHK)</TableCell>
                   <TableCell>
                     <a
@@ -257,9 +257,9 @@ export default function SelfPrimingPumps() {
                 </TableRow>
                 <TableRow>
                   <TableCell>Crompton PRIMO I</TableCell>
-                  <TableCell>1 HP | N/A | N/A</TableCell>
-                  <TableCell>₹3,420 - ₹4,180</TableCell>
-                  <TableCell>Medium flats (2-3 BHK), higher flow needs</TableCell>
+                  <TableCell>1 HP | 8m | 2500 LPH</TableCell>
+                  <TableCell>₹3,420–₹4,180</TableCell>
+                  <TableCell>Medium flats (2-3 BHK) with higher flow needs</TableCell>
                   <TableCell>
                     <a
                       href="https://amzn.to/4nlnnTv"
@@ -272,10 +272,10 @@ export default function SelfPrimingPumps() {
                   </TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell>CRI Self Priming Monoblock</TableCell>
-                  <TableCell>1 HP | N/A | N/A</TableCell>
-                  <TableCell>₹2,880 - ₹3,520</TableCell>
-                  <TableCell>Budget-friendly 2-3 BHK homes</TableCell>
+                  <TableCell>CRI Self Priming Monoblock Pump</TableCell>
+                  <TableCell>1 HP | 7m | 2200 LPH</TableCell>
+                  <TableCell>₹2,880–₹3,520</TableCell>
+                  <TableCell>Budget-conscious homes needing 1 HP</TableCell>
                   <TableCell>
                     <a
                       href="https://amzn.to/44n5xa3"
@@ -289,9 +289,9 @@ export default function SelfPrimingPumps() {
                 </TableRow>
                 <TableRow>
                   <TableCell>Kirloskar Chotu</TableCell>
-                  <TableCell>0.5 HP | N/A | N/A</TableCell>
-                  <TableCell>₹2,970 - ₹3,630</TableCell>
-                  <TableCell>Small flats (1-2 BHK), basic needs</TableCell>
+                  <TableCell>0.5 HP | 6m | 1800 LPH</TableCell>
+                  <TableCell>₹2,970–₹3,630</TableCell>
+                  <TableCell>Basic tank filling needs with Kirloskar reliability</TableCell>
                   <TableCell>
                     <a
                       href="https://amzn.to/4k8Dz7L"
@@ -306,7 +306,7 @@ export default function SelfPrimingPumps() {
                 <TableRow>
                   <TableCell>Crompton ULTIMO II</TableCell>
                   <TableCell>0.5 HP | 7m | 1800 LPH</TableCell>
-                  <TableCell>₹2,820 - ₹3,440</TableCell>
+                  <TableCell>₹2,820–₹3,440</TableCell>
                   <TableCell>Rental properties (Lucknow, Noida)</TableCell>
                   <TableCell>
                     <a
@@ -333,26 +333,26 @@ export default function SelfPrimingPumps() {
               },
               {
                 name: "Crompton PRIMO I",
-                pros: "Higher power (1 HP) for faster filling, durable",
-                cons: "May require stable voltage, slightly higher price",
+                pros: "Higher HP for faster filling, thermal protection, durable build",
+                cons: "Higher price point in budget category",
                 link: "https://amzn.to/4nlnnTv",
               },
               {
-                name: "CRI Self Priming Monoblock",
-                pros: "Cost-effective 1 HP, efficient water transfer",
-                cons: "Basic features, limited advanced protection",
+                name: "CRI Self Priming Monoblock Pump",
+                pros: "Good value for 1 HP, brass impeller, compact design",
+                cons: "Slightly lower flow than Crompton PRIMO I",
                 link: "https://amzn.to/44n5xa3",
               },
               {
                 name: "Kirloskar Chotu",
-                pros: "Reliable Kirloskar brand, compact, good for basic needs",
-                cons: "Lower power (0.5 HP), not for high flow demands",
+                pros: "Kirloskar reliability, robust motor, suitable for daily use",
+                cons: "Standard features, not for very high flow needs",
                 link: "https://amzn.to/4k8Dz7L",
               },
               {
                 name: "Crompton ULTIMO II",
                 pros: "Best suction depth, thermal protection, 2-year warranty",
-                cons: "Highest price in budget range",
+                cons: "Highest price in budget range for 0.5 HP",
                 link: "https://amzn.to/4l8sFjT",
               },
             ]}
@@ -417,7 +417,7 @@ export default function SelfPrimingPumps() {
             <AffiliateBox
               title="CRI DORA50"
               version="0.5 HP"
-              price="3,060 - 3,740"
+              price="₹3,060–₹3,740"
               bestFor="Medium flats (Pune, Jaipur)"
               warranty="1 year"
               technicalDetails={[
@@ -432,7 +432,7 @@ export default function SelfPrimingPumps() {
             <AffiliateBox
               title="CRI Miki 50"
               version="0.5 HP"
-              price="4,410 - 5,390"
+              price="₹4,410–₹5,390"
               bestFor="Houses (Hyderabad, Lucknow)"
               warranty="1 year"
               technicalDetails={[
@@ -447,7 +447,7 @@ export default function SelfPrimingPumps() {
             <AffiliateBox
               title="Crompton SP Aquagold 50"
               version="0.5 HP"
-              price="5,390 - 6,590"
+              price="₹5,390–₹6,600"
               bestFor="DDA flats (Rohini, Ahmedabad)"
               warranty="2 years"
               technicalDetails={[
@@ -464,7 +464,7 @@ export default function SelfPrimingPumps() {
             <AffiliateBox
               title="Kirloskar Chhotu Star Ultra"
               version="0.5 HP"
-              price="3,600 - 4,400"
+              price="₹3,600–₹4,400"
               bestFor="Houses (Ghaziabad, Jaipur)"
               warranty="2 years"
               technicalDetails={[
@@ -479,7 +479,7 @@ export default function SelfPrimingPumps() {
             <AffiliateBox
               title="Kirloskar Mini 50S"
               version="0.5 HP"
-              price="8,310 - 10,150"
+              price="₹8,310–₹10,150"
               bestFor="Top-floor flats (Hyderabad, Noida)"
               warranty="2 years"
               technicalDetails={[
@@ -512,7 +512,7 @@ export default function SelfPrimingPumps() {
                 <TableRow>
                   <TableCell>CRI DORA50</TableCell>
                   <TableCell>0.5 HP | 8m | 2000 LPH</TableCell>
-                  <TableCell>₹3,060 - ₹3,740</TableCell>
+                  <TableCell>₹3,060–₹3,740</TableCell>
                   <TableCell>Medium flats (Pune, Jaipur)</TableCell>
                   <TableCell>
                     <a
@@ -528,7 +528,7 @@ export default function SelfPrimingPumps() {
                 <TableRow>
                   <TableCell>CRI Miki 50</TableCell>
                   <TableCell>0.5 HP | 8m | 2500 LPH</TableCell>
-                  <TableCell>₹4,410 - ₹5,390</TableCell>
+                  <TableCell>₹4,410–₹5,390</TableCell>
                   <TableCell>Houses (Hyderabad, Lucknow)</TableCell>
                   <TableCell>
                     <a
@@ -544,7 +544,7 @@ export default function SelfPrimingPumps() {
                 <TableRow>
                   <TableCell>Crompton SP Aquagold 50</TableCell>
                   <TableCell>0.5 HP | 8m | 2500 LPH</TableCell>
-                  <TableCell>₹5,390 - ₹6,590</TableCell>
+                  <TableCell>₹5,390–₹6,600</TableCell>
                   <TableCell>DDA flats (Rohini, Ahmedabad)</TableCell>
                   <TableCell>
                     <a
@@ -560,7 +560,7 @@ export default function SelfPrimingPumps() {
                 <TableRow>
                   <TableCell>Kirloskar Chhotu Star Ultra</TableCell>
                   <TableCell>0.5 HP | 7m | 2000 LPH</TableCell>
-                  <TableCell>₹3,600 - ₹4,400</TableCell>
+                  <TableCell>₹3,600–₹4,400</TableCell>
                   <TableCell>Houses (Ghaziabad, Jaipur)</TableCell>
                   <TableCell>
                     <a
@@ -576,7 +576,7 @@ export default function SelfPrimingPumps() {
                 <TableRow>
                   <TableCell>Kirloskar Mini 50S</TableCell>
                   <TableCell>0.5 HP | 8m | 1800 LPH</TableCell>
-                  <TableCell>₹8,310 - ₹10,150</TableCell>
+                  <TableCell>₹8,310–₹10,150</TableCell>
                   <TableCell>Top-floor flats (Hyderabad, Noida)</TableCell>
                   <TableCell>
                     <a
@@ -623,7 +623,7 @@ export default function SelfPrimingPumps() {
                 name: "Kirloskar Mini 50S",
                 pros: "Specialized high-head design, perfect for top floors, Kirloskar reliability",
                 cons: "Lower flow rate, premium pricing",
-                link: "https://amzn.to/3Tiddp1",
+                link: "https://amzn.to/4fqhWxu",
               },
             ]}
           />

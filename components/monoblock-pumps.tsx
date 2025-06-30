@@ -148,7 +148,7 @@ export default function MonoblockPumps() {
             <AffiliateBox
               title="Crompton CHAMP PLUS II"
               version="0.5 HP"
-              price="2,850 - 2,950"
+              price="2,800–3,000"
               bestFor="Small homes (Bangalore, Lucknow)"
               warranty="2 years"
               technicalDetails={[
@@ -157,13 +157,13 @@ export default function MonoblockPumps() {
                 "Compact design saves space",
                 "Crompton service network support",
               ]}
-              link="https://amzn.to/4fH3fpL"
+              link="https://amzn.to/446ifv1"
               notes="Best value for money in compact category"
             />
             <AffiliateBox
               title="Crompton Mini Crest II"
               version="0.5 HP"
-              price="3,250 - 3,350"
+              price="3,180–3,880"
               bestFor="Flats (Pune, Noida)"
               warranty="2 years"
               technicalDetails={[
@@ -172,13 +172,13 @@ export default function MonoblockPumps() {
                 "Thermal protection feature",
                 "180–240V voltage tolerance",
               ]}
-              link="https://amzn.to/3VYqPHP"
+              link="https://amzn.to/40qIeuM"
               notes="Thermal protection ideal for voltage fluctuation areas"
             />
             <AffiliateBox
               title="Havells Zinnia 2 Plus"
               version="0.5 HP"
-              price="3,100 - 3,200"
+              price="2,620–3,200"
               bestFor="Medium homes (Ahmedabad, Jaipur)"
               warranty="2 years"
               technicalDetails={[
@@ -187,7 +187,7 @@ export default function MonoblockPumps() {
                 "Silent operation technology",
                 "Corrosion-resistant materials",
               ]}
-              link="https://amzn.to/3Pg1wgy"
+              link="https://amzn.to/44qUpJo"
               notes="Silent operation perfect for residential areas"
             />
           </div>
@@ -195,7 +195,7 @@ export default function MonoblockPumps() {
             <AffiliateBox
               title="Kirloskar Jalraaj II"
               version="0.5 HP"
-              price="4,950 - 5,050"
+              price="4,680–5,720"
               bestFor="Houses (Chandigarh, Ghaziabad)"
               warranty="2 years"
               technicalDetails={[
@@ -204,13 +204,13 @@ export default function MonoblockPumps() {
                 "Durable construction quality",
                 "Kirloskar service network",
               ]}
-              link="https://amzn.to/3Dz25PW"
+              link="https://amzn.to/44EZXBa"
               notes="Premium build quality with extensive service support"
             />
             <AffiliateBox
               title="Havells Hi-Flow M1 Series"
               version="1.0 HP"
-              price="7,800 - 7,950"
+              price="6,800–8,310"
               bestFor="Houses (Hyderabad, Mumbai)"
               warranty="2 years"
               technicalDetails={[
@@ -219,7 +219,7 @@ export default function MonoblockPumps() {
                 "Inverter-compatible design",
                 "Havells network support",
               ]}
-              link="https://amzn.to/4grIK1M"
+              link="https://amzn.to/44vtv35"
               notes="1 HP power ideal for larger homes and higher demand"
             />
             <div className="hidden md:block"></div>
@@ -241,11 +241,11 @@ export default function MonoblockPumps() {
                 <TableRow>
                   <TableCell>Crompton CHAMP PLUS II</TableCell>
                   <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹2,850 - ₹2,950</TableCell>
+                  <TableCell>₹2,800–₹3,000</TableCell>
                   <TableCell>Small homes (Bangalore, Lucknow)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/4fH3fpL"
+                      href="https://amzn.to/446ifv1"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -257,11 +257,11 @@ export default function MonoblockPumps() {
                 <TableRow>
                   <TableCell>Crompton Mini Crest II</TableCell>
                   <TableCell>0.5 HP | 20m | 2000 LPH</TableCell>
-                  <TableCell>₹3,250 - ₹3,350</TableCell>
+                  <TableCell>₹3,180–₹3,880</TableCell>
                   <TableCell>Flats (Pune, Noida)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/3VYqPHP"
+                      href="https://amzn.to/40qIeuM"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -273,11 +273,11 @@ export default function MonoblockPumps() {
                 <TableRow>
                   <TableCell>Havells Zinnia 2 Plus</TableCell>
                   <TableCell>0.5 HP | 20m | 2000 LPH</TableCell>
-                  <TableCell>₹3,100 - ₹3,200</TableCell>
+                  <TableCell>₹2,620–₹3,200</TableCell>
                   <TableCell>Medium homes (Ahmedabad, Jaipur)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/3Pg1wgy"
+                      href="https://amzn.to/44qUpJo"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -289,11 +289,11 @@ export default function MonoblockPumps() {
                 <TableRow>
                   <TableCell>Kirloskar Jalraaj II</TableCell>
                   <TableCell>0.5 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹4,950 - ₹5,050</TableCell>
+                  <TableCell>₹4,680–₹5,720</TableCell>
                   <TableCell>Houses (Chandigarh, Ghaziabad)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/3Dz25PW"
+                      href="https://amzn.to/44EZXBa"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -305,11 +305,11 @@ export default function MonoblockPumps() {
                 <TableRow>
                   <TableCell>Havells Hi-Flow M1 Series</TableCell>
                   <TableCell>1.0 HP | 25m | 2000 LPH</TableCell>
-                  <TableCell>₹7,800 - ₹7,950</TableCell>
+                  <TableCell>₹6,800–₹8,310</TableCell>
                   <TableCell>Houses (Hyderabad, Mumbai)</TableCell>
                   <TableCell>
                     <a
-                      href="https://amzn.to/4grIK1M"
+                      href="https://amzn.to/44vtv35"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -328,31 +328,31 @@ export default function MonoblockPumps() {
                 name: "Crompton CHAMP PLUS II",
                 pros: "Most affordable, compact design, good head capacity, reliable brand",
                 cons: "Basic features, no thermal protection",
-                link: "https://amzn.to/4fH3fpL",
+                link: "https://amzn.to/446ifv1",
               },
               {
                 name: "Crompton Mini Crest II",
                 pros: "Thermal protection, voltage tolerance, proven reliability",
                 cons: "Lower head than CHAMP PLUS, slightly higher price",
-                link: "https://amzn.to/3VYqPHP",
+                link: "https://amzn.to/40qIeuM",
               },
               {
                 name: "Havells Zinnia 2 Plus",
                 pros: "Silent operation, corrosion-resistant, good value for money",
                 cons: "Lower head capacity, limited to residential use",
-                link: "https://amzn.to/3Pg1wgy",
+                link: "https://amzn.to/44qUpJo",
               },
               {
                 name: "Kirloskar Jalraaj II",
                 pros: "Premium build quality, excellent service network, durable construction",
                 cons: "Highest price in 0.5 HP category",
-                link: "https://amzn.to/3Dz25PW",
+                link: "https://amzn.to/44EZXBa",
               },
               {
                 name: "Havells Hi-Flow M1 Series",
                 pros: "1 HP power, inverter-compatible, suitable for larger homes",
                 cons: "Most expensive, higher power consumption",
-                link: "https://amzn.to/4grIK1M",
+                link: "https://amzn.to/44vtv35",
               },
             ]}
           />

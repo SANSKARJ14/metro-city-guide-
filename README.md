@@ -2,7 +2,7 @@
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sanskar-jains-projects-3150f59a/v0-create-page-guide)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://v0-create-page-guide.vercel.app)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/W5Cyji6Y2Q3)
 
 ## Overview
@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/sanskar-jains-projects-3150f59a/v0-create-page-guide](https://vercel.com/sanskar-jains-projects-3150f59a/v0-create-page-guide)**
+**[https://v0-create-page-guide.vercel.app](https://v0-create-page-guide.vercel.app)**
 
 ## Build your app
 
